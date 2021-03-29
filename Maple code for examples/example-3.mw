@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="18" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true">
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="false" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1080" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output12" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small203" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output6" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[175,0,175]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="none" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="none" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="none" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="none" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output6" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output12" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#
+#  TORIC RESULTANTS
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX#
+# Maple9 code for sparse (toric) resultant matrices.
+# Author: Ioannis Z Emiris, National Univ. of Athens, Greece
+# emiris@di.uoa.gr, http://www.di.uoa.gr/~emiris/
+# Originally based on code by John Canny and Paul Pedersen in 1993.
+# File created 10/03 from spares8.mpl, adding RATIONAL_FORMULA feature.
+# This is software under development, and is free for distribution.
+# The author assumes no responsibility, but comments are welcome.
+
+# Created: 5/96
+# Last update: 3/2004
+
+# Main function call:
+# spresultant(polynomial_list, eliminated_variable_list,
+#        [,geometric_perturbation_vector [,lifting_matrix]] ) 
+#        RETURNS sparse (toric) resultant matrix in input coefficients
+
+# References:
+# For the subdivision-based algorithm: J.F. Canny and I.Z. Emiris,
+# &quot;An efficient algorithm for the sparse mixed resultant&quot;, in Proc.
+# AAECC-93.  Final version: &quot;A Subdivision-Based Algorithm for the
+# Sparse Resultant&quot;, J. ACM, 47:417-451, 2000.
+ 
+with(simplex):
+with(linalg):
+readlib(unassign):
+RATIONAL_FORMULA := 1;          # 1 iff denominator matrix computed
+
+############# utilities #####################
+
+RandSign := proc() eval(eval(rand(0..1)())*2-1) end:
+
+# Return true/false depending on whether 'tarray' is an array.
+#   For 1-dimensional arrays (vectors) check whether its elements
+#   are of type 'ttype' and return true/false accordingly.
+#
+`toric/type1Array` := proc(tarray::array,ttype::name)
+  local i, size;
+  if not type(tarray,vector) then RETURN(true); fi;        
+  # else 1-dim array ie. vector and will check elements
+  size := nops(convert(tarray,list));
+  for i from 1 to size do
+    if (not(evalb(type(tarray[i],ttype)))) then RETURN(false); fi;
+  od;
+  RETURN(true);
+end:        # `toric/type1Array`
+
+# computes the 2-norm of a vector expressed as (1Xn) matrix
+#
+`toric/twonorm` := proc(x::matrix)
+  local i,r;
+    r := x[1,1]^2;
+    for i from 2 to coldim(x) do r := r + x[1,i]^2 od;
+    convert(sqrt(r), float)
+end: # `toric/twonorm`
+
+# checks if &quot;el&quot; lies in the set or list &quot;vset&quot;, using equal rather than =
+#
+`toric/vmem` := proc(el, vset)
+  local found, el2;
+  found := false;
+  for el2 in vset do
+    if equal(el, el2) then found := true; break fi;
+  od;
+  found;
+end: # `toric/vmem`
+
+# define a random affine functional as a random dxd matrix
+# To be used for lifting and defining mixed subdivision
+#
+`toric/randaff` := proc(d::integer)
+  local i,j,l,die;
+  die := rand(1..1000);
+  l := matrix(d,d);
+  for i from 1 to d do
+    for j from 1 to d do l[i,j] := die() od;
+  od;
+  eval(l);
+end: # `toric/randaff`
+
+# random integer vector of length n
+# To be used as displacement (perturbation) of Minkowski sum
+#
+`toric/randvect` := proc(n::integer)
+  local i, rproc, sgn, r;
+  rproc := rand(1..1000);
+  sgn := rand(1..2);
+  r := array(1..n);
+
+  for i to n do
+    r[i] := convert(rproc()/10000, float);
+    if sgn()=1 then r[i] := -r[i]; fi
+  od;
+  eval(r);
+end: # `toric/randvect`
+
+# computes Center Of Gravity of Newton polytope
+# hull=arr[d,#monoms.in.hull], exponents are columns
+# returns matrix[#monoms,1]
+#
+`toric/cog` := proc(hull::array)
+  local numonom, v;
+  numonom := coldim(hull);
+  v := multiply(hull, convert(vector(numonom,1), matrix));
+  scalarmul(v, 1/numonom);
+end: # `toric/cog`
+
+################### polynomial operations ################
+
+## HELP `toric/coefofexp`
+##
+## `toric/coefofexp` - monomial coefficient in a polynomial.
+##
+## CALLING SEQUENCE:
+##     `toric/coefofexp`(p, v, d)
+##
+## PARAMETERS:
+##     p  - polynomial
+##     v  - array of variables
+##     d  - array of integers
+## DESCRIPTION:
+## - Compute the coefficient of p corresponding to v^d.  
+##   Arrays v and d must be 1-dimensional and of the same size.
+##
+## EXAMPLES:
+##&gt; `toric/coefofexp`(x^2-y*z+y*x-1,array(1..3,[x,y,z]),array(1..3,[0,1,1]));
+##
+##                              -1
+##
+##&gt; `toric/coefofexp`(x^2-y*z+y*x-1,array(1..3,[x,y,z]),array(1..3,[1,0,2]));
+##
+##                              0
+## SEE ALSO:
+## coeffs
+##
+`toric/coefofexp` := proc(p::polynom, v::array, d::array)
+  local i, ans, sz;
+  if (not(evalb(`toric/type1Array`(v,name)))) then
+    ERROR(`Coeffofmon requires second argument`,v,`be an array of names`);
+  fi;
+  if (not(evalb(`toric/type1Array`(d,integer)))) then
+    ERROR(`Coeffofmon requires third argument`, d,`be an array of ints`);
+  fi;
+
+  sz := nops(convert(d,list));
+  if (not(evalb(nops(convert(v,list))=sz))) then
+    ERROR(`Coeffofmon requires size(variables)=size(degrees)`);
+  fi;
+
+  ans := p;
+  for i from 1 to sz do
+    ans := coeff(ans,v[i],d[i]);
+  od;
+
+  RETURN(eval(ans));
+
+end:    # `toric/coefofexp`
+
+# map a function 'fnc' on all coefficients of polynomial 'poly'
+# return the new polynomial
+#
+`toric/map_coefs` := proc (fnc,poly::polynom)
+  local cvec, mvec, mons;
+  cvec := vector(map(fnc,[coeffs(expand(poly),indets(expand(poly)),'mons')]));
+  mvec := vector([mons]);
+  # lprint(`map_coef_returns`,dotprod (cvec, mvec, 'orthogonal'));
+  dotprod (cvec, mvec, 'orthogonal');
+end:         # `toric/map_coefs`
+
+#################### format conversion #############################
+#----------------------------------------------------------------------
+addtohelp(`toric/polytope`):
+#---------------------------------------------------------------------- 
+## HELP `toric/polytope`
+##
+## `toric/polytope` - compute Newton polytopes and supports of polynomial system
+##
+## CALLING SEQUENCE:
+##     `toric/polytope`(pol, var)
+##
+## PARAMETERS:
+##     pol  - list of polynomials
+##     var  - list of variables
+## DESCRIPTION:
+## - Compute the Newton polytopes and supports of the given polynomial
+##   system &quot;pol&quot; with respect to the variables &quot;var&quot;.
+##
+## - The function returns a sequence of two arrays: one for the Newton
+##   polytope vertices (indexing into the supports) and one for the supports.
+##
+## EXAMPLES:
+##&gt; `toric/polytope`([x^2-x+y*x-1,x*y-3,2*x-x*y-1],[x,y]);
+##
+##                                        [[0   1   2   1]  [0   1]  [0   1   1]]
+## [{1, 3, 4}, {1, 2}, {1, 2, 3}], [[             ], [     ], [         ]]
+##                                   [[0   0   0   1]  [0   1]  [0   0   1]]
+##
+## SEE ALSO:
+## `toric/mixed`, spresultant
+##
+`toric/polytope` := proc (pol::list, var::list)
+local polylist, varlist, apol, npols, supps, hulls;
+
+  polylist := convert(pol,list);
+  varlist := convert(var,list);
+
+  npols := nops(polylist);
+<Font encoding="UTF-8">  # printf(&quot;working on %d polynomials in %d variables\134n&quot;,npols,nops(varlist));
+</Font>
+  supps := array (1..npols);
+  hulls := array (1..npols);
+
+  # printf(&quot;Newton polytope vertex cardinalities are&quot;);
+  for apol from 1 to npols do
+    supps[apol] := `toric/supp_mat` (polylist[apol], varlist);                # mat[dim,num]
+    hulls[apol] := `toric/comp_hull` (supps[apol], 2*nops(varlist));        # 2 = arbitrary
+    # printf(&quot;, %d&quot;,nops(hulls[apol]));
+  od;
+<Font encoding="UTF-8">  # printf(&quot;.\134n&quot;);
+</Font>
+  RETURN (eval(hulls), eval(supps));
+end:        # `toric/polytope`
+
+# in_poly = input polynomial
+# vars = list of variables to be eliminated (after hiding)
+# return the support of &quot;in_poly&quot; as num_vars x num_monoms matrix
+#
+`toric/supp_mat` := proc (in_poly::polynom, vars::list)
+  local v, nvars,
+        poly, supp,
+        mons, monl,
+        m, nmons;
+  # lprint(`got polyn`,in_poly,`in vars`,vars);
+  poly := collect(simplify (expand(in_poly)), vars, distributed);
+  coeffs( eval(poly), vars, 'mons');
+  # lprint(`put monoms in`,mons);
+
+  monl := sort([mons]);
+  nmons := nops(monl);
+  # lprint(`collected polyn`,poly,`w/monoms`,monl);
+
+  nvars := nops (vars);
+  supp := matrix (nvars, nmons);
+
+  for m from 1 to nmons do
+    for v from 1 to nvars do supp[v,m] := degree (monl[m], vars[v]); od;
+  od;        # for monomial
+
+  evalm (supp);
+end:        # `toric/supp_mat`
+
+# polyn = polynomial in any variables
+# return polynomial multiplied by min. int to get rid of denominators
+#   so that max abs.value of new coeffs doesnt exceed local bound
+#
+`toric/scaled` := proc (polyn::polynom)
+  local coefs, c,                        # all Numeric coefficients
+        mx, mult,                        # max coef, denominator multiplier
+        too_big_constant;
+  too_big_constant := 2^30;
+
+  coefs := coeffs (collect(expand(polyn),indets(polyn),distributed));
+  mx := max(op(map(abs,[coefs])));
+
+  mult := 1;
+  for c in coefs do if not type(c,integer) then
+    c := convert(c,rational,exact);
+    mult := ilcm (mult, denom(c));
+  fi; od;
+  if evalf(abs(mult*mx)) &gt;= too_big_constant then
+    mult := max(1, floor( too_big_constant/mx ));
+  else # lprint(`multiplying by _lcm_ of denoms=`,mult);
+  fi;
+  eval(mult * polyn);
+end:  # `toric/scaled`
+
+################## matrix construction #####################
+
+# A = array of matrices, each contains vertices as columns.
+# alift = lifting: either lifD x lifD matrix or list of lifD lists
+#        If matrix, expresses (random) affine lift; rows correspond to polytopes.
+#        Historical: also handle lifD x (lifD-1) matrices, expressing linear liftings.
+#        If list of lists, each list contains lift.value of resp. supp.point
+# lifD = length of A = dimension - 1.
+#
+# Constructs the following input equations for LP package:
+<Font encoding="UTF-8">#   \134lambda_{i,j} are defined to be the LP variables
+#   vertex eqts lhs   = \134sum_{ij} \134lambda_{ij} A_{ij}
+#   convexity constr. = \134sum \134lambda_{i,j} = 1
+</Font># If alift = matrix, then
+#   l_i = alift_i = random affine functional, l_i[const] = 0 iff lin.functional
+<Font encoding="UTF-8">#   objective         = \134sum_i l_i * ( \134sum_j \134lambda_{i,j} A_{i,j} ) + l_i[const]
+</Font># If alift = list of lists, then
+<Font encoding="UTF-8">#   objective         = \134sum_i \134sum_j \134lambda_{i,j} * alift[i][j]
+</Font>#
+`toric/make_eqns` := proc(A::array, alift, lifD::integer)
+  local i, j, C, cd, conveq, convsum,
+        ipoly, lambda, nverts, objective, vertlhs, linpart;
+
+  objective := 0;                        # objective function
+  vertlhs := vector(lifD-1, 0);                # left hand sides vertex equations
+  conveq := {};                                # convexity constraints
+  nverts := dotprod(vector(lifD,1), map(coldim, A));# total number of vertices
+
+  if type(alift,matrix) then
+    linpart := submatrix (alift, 1..lifD, 1..(lifD-1));
+  fi;
+
+  for i from 1 to lifD do
+        ipoly := A[i];
+        convsum := 0;
+        cd := coldim(ipoly);
+        lambda := array(1..cd);                        # vector of new variables
+
+        for j from 1 to cd do
+            lambda[j] := `lam`||i||`x`||j;
+            convsum := convsum + lambda[j];
+        od;
+ 
+        conveq := conveq union {convsum = 1};
+        C := multiply(ipoly, lambda);
+        vertlhs := matadd(vertlhs, C);
+ 
+              if type(alift,matrix) then
+          objective := objective + multiply (subvector(linpart,i,1..(lifD-1)),C); 
+              if coldim(alift)=lifD then objective := objective + alift[i,lifD] fi;
+        else
+          objective := objective + dotprod (lambda,convert(op(i,alift),vector));
+        fi;
+  od;
+
+  # print([objective, conveq, eval(vertlhs), nverts]);
+  [objective, conveq, vertlhs, nverts];
+end: # `toric/make_eqns`
+
+# Input: oldvec = vector w/entries in {-1,0,1}, expresses assignment.
+# Output: lex-next higher assignment; skips 0-vector
+# 
+`toric/incr3asg` := proc (oldvec::vector)
+  local i, k, dim, lis;
+  lis := convert(oldvec,list);
+  dim := nops(lis);
+
+  k := dim; 
+  while lis[k] = 1 do k:=k-1 od;
+  lis[k] := lis[k]+1;
+  for i from k+1 to dim do lis[i] := -1 od;
+
+  if equal(convert(lis,vector),vector(dim,0)) then
+    lis[dim] := 1;
+  fi;
+  
+  eval(convert(lis,vector));
+end:        # `toric/incr3asg`
+
+# Input:
+#   hullArr expresses Newton polytopes
+#   lifD = dimension of lifted space = number of polytopes
+#   edata = list of objects for linear optimizationS
+#   delta = vector of geometric perturbation
+# Return:
+#   Integer point guaranteed to lie inside perturbed Mink.sum
+#   ie. it is vertex in perturbed lifted M.sum.  The last optimization
+#   returns info that can be used later but for now it is wasted.
+#
+`toric/start_vertex` := proc (hullArr::array, lifD::integer, edata::list, delta::vector)
+  local i,
+        asg, count_asg,
+        imax, overts,
+        init_v,                         # sum of cog's
+        ivt;                                # rounded point
+
+    # init_v := `toric/cog`(hullArr[1]);                # start at center of gravity...
+    init_v := eval(submatrix(hullArr[1],1..(lifD-1),[1]));
+    for i from 2 to lifD do                                # ... of Minkowski sum
+      # init_v := matadd(init_v,`toric/cog`(hullArr[i]))  # =mat[rowdim,1]=[(d-1),1]
+      init_v := matadd(init_v,submatrix(hullArr[i],1..(lifD-1),[1]));
+    od;
+    init_v := map(round,init_v);
+
+    ivt := eval(init_v);                        # (lifD-1)x1 matrix
+    imax := 0;
+    asg := vector(lifD-1,-1);
+    count_asg := 1;
+
+    while imax = 0 do
+      # print(`Start point candidate`,eval(ivt));
+      overts := `toric/opt_verts`(edata, matadd(ivt,delta,1,-1), lifD);        # lower hull vertex
+      imax := lifD;
+      while imax&gt;0 and overts[imax]=0 do imax:=imax-1 od;
+      if imax=0 then
+        # print(`reject with opt.verts`,overts);
+        ivt := matadd(init_v,asg,1,1);
+        count_asg := count_asg + 1;                                # asg to be comp'd
+        if count_asg &gt; 3^(lifD-1) then
+                ERROR(`cant find valid starting point after`,count_asg,`tries`) fi;
+        asg := `toric/incr3asg` (asg);
+      fi;
+    od; # while
+    eval(ivt);
+end:        # `toric/start_vertex`
+
+# must turn `lamMxN` into list [M, N]
+#
+`toric/recode` := proc(z0)
+  local i, L, M, N, s, state, z,
+        char0, char1, char2, char3, char4,
+        char5, char6, char7, char8, char9;
+  for i from 0 to 9 do `char`||`i` := i; od;
+  z := convert(z0,string);
+  L := length(z);
+  M := 0;
+  N := 0;
+  state := 1;
+  for i from 4 to L do
+    s := substring(z,i..i);
+    if s = &quot;x&quot; then state := 2 fi;
+    if state = 1 then M := 10*M + `char`||s;                # for decimals
+    elif state = 2 then state := 3;
+    elif state = 3 then N := 10*N + `char`||s; fi;
+  od;
+  [M, N];
+end:                # `toric/recode`
+
+# Check which polytope points contribute to optimum sum for vert.
+# Input:
+#   edata = list of objects including equations from `toric/make_eqns`(),
+#   vert  = vertex in Minkowski sum,
+#   lifD  = dimension + 1 = number of polynomials.
+# Return:
+#   optverts = lifD-dim vector, where lifD=n+1
+#   optverts[i] = summand vertex of support i, 0 if no vertex from polytope i
+#
+`toric/opt_verts` := proc(edata::list, vert, lifD::integer)
+  local        assigns, eqns, ivert, j, nverts, objective,
+        optverts, optvtx,
+        verteq, vertlhs, a,
+         epsilon, start_timer;
+  global tot_time_lp;
+
+  epsilon := 10^(-round(2*Digits/3));
+
+   # Pick apart input from `toric/make_eqns`()
+    objective := op(1, edata);                # objective function
+    eqns := op(2, edata);                # convexity constraints
+    vertlhs := op(3, edata);                # vertex eqns left hand sides
+    nverts := op(4, edata);                # total number of input vertices
+
+   # Run LP package to find optimal sum (on lower envelope) for vert
+    for j to lifD-1 do
+        eqns := eqns union {vertlhs[j] = vert[j,1]}
+    od;
+<Font encoding="UTF-8">     printf(&quot;Calling minimize() with: lifD=%d, Opt_verts=%a\134n&quot;,lifD,eval(vert));
+     printf(&quot;   obj.fnc=%a, eqns=%a\134n&quot;,eval(objective),eval(eqns));
+</Font>
+    start_timer := time();
+    assigns := minimize(objective, eqns, NONNEGATIVE);
+    tot_time_lp := tot_time_lp + time() - start_timer;
+
+    if assigns=NULL then ERROR(`unbounded`);
+    # elif assigns={} then ERROR(`infeasible`); 
+    fi;
+     print(`obtained`,assigns);
+
+   # find vertices appearing in the representation
+    optverts := vector(lifD,0);                        # unset
+
+    for a in assigns do
+        if (abs(rhs(a)-1.0) &lt; epsilon) then
+            optvtx := `toric/recode`(lhs(a));                # list [pol,mon]
+            if optverts[optvtx[1]]&gt;0 then ERROR(`optimal vertex already assigned`) fi;
+            optverts[optvtx[1]] := optvtx[2];
+        fi
+    od;   
+    optverts;
+end:                         # `toric/opt_verts`
+
+# greedy / std algorithm for finding rows of sparse (toric) resultant matrix
+#
+# H          = c. hulls: arrays of arrays ((lifD-1) X num vertices) of input vertices
+# S      = supports: arrays of arrays of input vertices plus interior points
+# edata  = equations defining lower hull suitable for simplex package
+# init_v = vtx in Mink.sum of the H[i], coldim x 1 matrix, iff greedy algo;
+#           std algo iff init_v = all pts in Mink.sum = superset of matrix indices
+# delta  = random small displacement vector
+# lifD   = dimension + 1 = lifted dimension = Number of polynomials
+# trace  = debug/message level during execution.  0 for silence
+#
+# Returns sorted list &quot;guide&quot; indexing the matrix rows as polyn*monom products.
+# Each row coded as list [ pt in Mink.sum, polynomial indx, monom in its support ]
+#         so that the support pt (or monom) w/max polyn.index appears
+#        in the optimal sum expressing the Mink.sum point.
+#
+<Font encoding="UTF-8">`toric/compute_rows` := proc(H::array, S::array, edata::list, init_v,\134
+</Font>        delta::vector, lifD::integer, trace::integer)
+local guide,
+        den_guide,        # guide of pts indexing denominator matrix
+        cols,                # set of all monoms even appeared as col
+        greedyalgo,        # F iff std algo w/known pts, T iff greedy algo finds pts
+      i, ii, imax, ipoly, jmax, overts, todo, vt1, vt2, counter, vt;
+
+    if type(init_v,matrix) then
+        greedyalgo := true;
+        todo := {eval(init_v)};
+            cols := {eval(init_v)};
+    else
+        greedyalgo := false;
+        todo := {op( map(i-&gt;matrix(lifD-1,1,i),init_v) )};
+        cols := NULL;                         # safety
+    fi;
+
+    counter := 0;
+    guide := {};                        # init set of rows
+    den_guide := [];
+    # printf(&quot;Constructing matrix rows:&quot;);
+
+    while not (todo = {}) do                # continue while vt is defined
+
+      vt := op(1, todo);
+      todo := todo minus {eval(vt)};
+      if true then
+            counter := counter+1;
+            # print(`compute rows: Row monomial`, counter, `equals`, vt);
+      fi;
+<Font encoding="UTF-8">      # if modp(counter,10)=0 then printf(&quot;%d.\134n&quot;,counter) fi;
+</Font>
+      overts := `toric/opt_verts`(edata, matadd(vt,delta,1,-1), lifD);
+
+      # find largest index of input polytope contributing a vertex to optimal sum
+      imax := lifD;
+
+      while imax&gt;0 and overts[imax]=0 do imax:=imax-1 od;
+
+      if imax=0 then
+              if greedyalgo then ERROR(`imax=0`) else next fi;
+      fi;
+
+      # for vt1 in overts do if
+          # vt1[1] &gt; imax then imax := vt1[1]; jmax := vt1[2] fi od;
+      jmax := overts[imax];
+
+      guide := guide union {[eval(vt),imax,jmax]};
+
+<Font encoding="UTF-8">      printf(&quot;NUMER: %d,%d,%d: RC= %d,%d; overts %a\134n&quot;,\134
+</Font>                vt[1,1],vt[2,1],vt[3,1],imax,jmax,eval(overts));
+
+      if RATIONAL_FORMULA=1 then
+          ii := imax-1;                 # search past (ie. below) imax
+          while ii&gt;0 and overts[ii]=0 do ii:=ii-1 od;
+          if ii&gt;0 then                  # unmixed: there's 2nd overts[ii]&gt;0
+            den_guide := [ op(den_guide), [eval(vt),imax,jmax] ];
+<Font encoding="UTF-8"> printf(&quot;denom: %d,%d,%d: RC= %d,%d; 2nd vtx summand = %d,%d (indices&gt;0)&quot;,\134
+</Font>                vt[1,1],vt[2,1],vt[3,1],imax,jmax,ii,overts[ii]);
+<Font encoding="UTF-8">            printf(&quot; and overts %a\134n&quot;,eval(overts));
+</Font>          fi;
+      fi; #RATIONAL_FORMULA
+
+      if greedyalgo then
+          vt2 := matadd(vt, col(H[imax], jmax), 1, -1);
+          ipoly := S[imax];
+          for i from 1 to coldim(ipoly) do        # find exponents occurring as..
+            vt1 := matadd(vt2, col(ipoly, i));        # ..multiples of monomials in S[imax]
+            if not `toric/vmem`(vt1, cols) then        
+                cols := cols union {eval(vt1)};
+                todo := todo union {eval(vt1)};
+            fi
+          od;
+      fi;#greedy
+    od;        # while
+
+    RETURN( sort(convert(guide, list), `toric/guide_order`),
+                sort (den_guide, `toric/guide_order`));
+end: # `toric/compute_rows`
+
+# Same as `toric/compute_rows` for dimension = #vars = 2 so lifD = #pols = 3.
+# H          = c.hulls: arrays of arrays ((lifD-1) X num vertices) of input vertices
+# S      = supports: arrays of arrays of input vertices plus interior points
+# edata  = equations defining lower hull suitable for simplex package
+# init_v = integer point in the Minkowski sum of the inputs H[i], 2 x 1 matrix
+#           or list of all points
+# delta  = random small displacement vector
+# trace  = debug/message level during execution; 0 for silence.
+#
+# Returns sorted list &quot;guide&quot; indexing the matrix rows as polyn*monom products.
+# Each row coded as list [ pt in Mink.sum, polynomial indx, monom in its support ]
+#        so that the support pt (or monom) w/max polyn.index appears
+#        in the optimal sum expressing the Mink.sum point.
+#
+# row_guide, todo, allcols: include column monoms ie. in Mink.sum.
+# Invariant: allcols = row_guide union todo; row_guide, todo distinct.
+# Add to `todo` if `allcols` unassigned (cheap test), then assign.
+# Hence can use lists and check allcols for adding, instead of set union.
+#
+<Font encoding="UTF-8">`toric/comp_rows_2` := proc(H::array, S::array, edata::list, init_v,\134
+</Font>                                delta::vector, trace::integer)
+local        allcols,                        # array of column monoms
+        row_guide,                        # matrix rows
+        maxcoor,                        # max coor in Mink.sum of lifD polytopes
+        i, coor,                         # indices
+        lifD, vt,                        # #pols=#vars+1
+        imax, ipoly, jmax, overts,
+        todo,                                # (column) monoms to be examined
+        den_guide, ii,                        # denominator matrix
+        vt1, vt2, monoms, counter;
+global  RATIONAL_FORMULA; 
+
+    if not type(init_v,matrix) then ERROR(`list of Mink.sum points not implemented`) fi;
+
+    lifD := 3;
+    counter := 0;                        # only if trace&gt;1
+
+    row_guide := [];                        # init rows
+    den_guide := [];
+    todo := { eval(init_v) };
+
+    maxcoor := vector(lifD-1);
+    for coor from 1 to lifD-1 do        # init
+        maxcoor[coor] := max(op(convert(row(H[1],coor),list)));
+    od;
+    for i from 2 to lifD do for coor from 1 to lifD-1 do
+        maxcoor[coor] := maxcoor[coor] + max(op(convert(row(H[i],coor),list)));
+    od; od;
+    if trace&gt;0 then lprint(`  maximum coordinates`,eval(maxcoor)); fi;
+        
+    allcols := array(0..maxcoor[1],0..maxcoor[2]);        # not assigned
+    allcols[init_v[1,1],init_v[2,1]] := 1;                # assigned
+    # printf(&quot;Constructing matrix rows:&quot;);
+
+    while todo &lt;&gt; {} do                         # loop while vt defined
+        vt := op(1, todo);
+        todo := todo minus {eval(vt)};
+
+        counter := counter+1;
+        # if modp(counter,10)=0 then printf(&quot;call.opt_verts.%d &quot;,counter); fi;
+        overts := `toric/opt_verts`(edata, matadd(vt,delta,1,-1), 3);        # lower hull vertex
+        if trace&gt;0 then 
+          print(`toric/comp_rows_2: Row monomial`,counter,`equals`,vt,`expressed`,overts);
+        fi;
+
+         # find max index `imax` of polytope contributing vertex to optimal sum
+        imax := 3;
+        while overts[imax]=0 do imax:=imax-1; if imax=0 then ERROR(`0-imax`) fi od;
+        jmax := overts[imax];
+        row_guide := [ op(row_guide), [eval(vt),imax,jmax] ];
+
+        if trace&gt;1 then
+          lprint(`values of imax,vt,overts equal`,imax,eval(vt),eval(overts));
+        fi;
+
+        if RATIONAL_FORMULA=1 then
+          ii := imax-1;                 # search past (ie. below) imax
+          while ii&gt;0 and overts[ii]=0 do ii:=ii-1 od; 
+<Font encoding="UTF-8">          # printf(&quot;RatForm: ii=%d\134n&quot;,ii);
+</Font>          if ii&gt;0 then                  # unmixed: there's 2nd overts[ii]&gt;0
+            den_guide := [ op(den_guide), [eval(vt),imax,jmax] ];
+<Font encoding="UTF-8">            printf(&quot;RatForm:unmixed %dth pt = %d,%d w/RC = %d,%d and 2nd vtx summand = %d,%d\134
+                (indices &gt;0)\134n&quot;,nops(den_guide),vt[1,1],vt[2,1],imax,jmax,ii,overts[ii]);
+</Font>            # print(`and overts`,overts);
+          fi;
+<Font encoding="UTF-8">          # printf(&quot;eXiting RATIONAL_FORMULA\134n&quot;);
+</Font>        fi; # if RATIONAL_FORMULA
+
+<Font encoding="UTF-8">        # printf(&quot;setting vt2=vt-col(%a[%d],%d), using S.\134n\134n&quot;,eval(H),imax,jmax);
+</Font>        vt2 := matadd(vt, col(H[imax], jmax), 1, -1);
+        ipoly := S[imax];
+        monoms := coldim(ipoly);
+
+        for i from 1 to monoms do                # find exponents occurring as..
+            vt1 := matadd(vt2, col(ipoly, i));        # ..multiples of monomials in S[imax]
+            if not assigned( allcols[vt1[1,1],vt1[2,1]] ) then        
+                allcols[vt1[1,1],vt1[2,1]] := 1;
+                todo := todo union {eval(vt1)};
+            fi;
+        od;
+    od;
+    
+    RETURN( sort (row_guide, `toric/guide_order`), sort (den_guide, `toric/guide_order`));
+
+end: # `toric/comp_rows_2`
+
+# criterion for sorting &quot;guide&quot; list of matrix rows
+#
+`toric/guide_order` := proc(a, b) `toric/v_order`(op(1, a), op(1, b)) end:
+
+# true iff a&lt;b lexicographically
+#
+`toric/v_order` := proc(a::matrix, b::matrix)
+  local bigger, d, i;
+    d := rowdim(a);
+    bigger := false;
+    for i to d do
+       if a[i,1] &lt; b[i,1] then
+           bigger := true;
+           break;
+       elif a[i,1] &gt; b[i,1] then
+           bigger := false;
+           break;
+       fi;
+    od;
+    bigger;
+end:                # `toric/v_order`
+
+# Input:
+#   suppMat[d-1,#monoms] = matrix of support points
+#   hullSet = set of indices in suppMat defining c.hull
+#   Optional: list of lift values, one per supp.point
+# sort columns of suppMat on `toric/v_order`, affecting suppMat
+# Return:
+#   hull2supp[h]=s indexing: hull-col h = supp-col s
+#   submatrix of suppMat comprised of hull vertices
+#     must be in same order as supportMatrices to detect diag.monoms
+#   If 3rd arg: return list of sorted lift values
+#
+`toric/sort_inplace` := proc(hullSet::set,suppMat::matrix)
+#                                                        liftvals
+  local rows, cols, i, j, k, d, n, noflips, temp,
+        isVertex, hull2supp, liftvals;
+
+  # print('input_hullset,suppmat',hullSet,suppMat);
+  d := rowdim(suppMat);
+  n := coldim(suppMat);
+  isVertex := vector(n,0);                        # init
+  for i in hullSet do isVertex[i] := 1 od;
+  if nargs&gt;2 then
+    if nops(args[3])&lt;&gt;n then ERROR(`bad 3rd arg`) fi;
+    liftvals:= vector(args[3]);
+  fi;
+
+  for i from n-1 by -1 to 1 do
+    noflips := true;
+    for j from 1 to i do
+      if `toric/v_order`(submatrix(suppMat,1..d,[j+1]), submatrix(suppMat,1..d,[j])) then
+        noflips := false;
+        if isVertex[j] &lt;&gt; isVertex[j+1] then
+          temp:=isVertex[j]; isVertex[j]:=isVertex[j+1]; isVertex[j+1]:=temp;
+        fi;
+        for k from 1 to d do
+          temp := suppMat[k, j+1];
+          suppMat[k, j+1] := suppMat[k, j];
+          suppMat[k, j] := temp;
+        od;#k
+        if nargs&gt;2 then
+          temp:=liftvals[j+1];liftvals[j+1]:=liftvals[j]:liftvals[j]:=temp;
+        fi;
+      fi;#v_order
+    od;#j
+    if noflips then break fi;
+  od;
+  # lprint(`This is a sorted support`, eval(suppMat));
+
+  hull2supp := vector(nops(hullSet),0);                # init
+  j:=1;
+  for i from 1 to n do
+    if isVertex[i]=1 then
+      hull2supp[j] := i;                        # j-th hull col = i-th supp col
+      j := j+1;
+    fi;
+  od;
+
+  # print('ret hull2set',hullSet); print(convert(liftvals,list));
+  if nargs&gt;2 then
+<Font encoding="UTF-8">    [eval(hull2supp), evalm(submatrix(suppMat,1..d,convert(hull2supp,list))),\134
+</Font>        convert(liftvals,list)];
+  else
+    [eval(hull2supp), evalm(submatrix(suppMat,1..d,convert(hull2supp,list)))];
+  fi;
+
+end:        # `toric/sort_inplace`
+# ----------------------------------------------------------------------
+addtohelp(`toric/mixed`):
+# ----------------------------------------------------------------------
+## HELP `toric/mixed`
+##
+## `toric/mixed` - sparse (toric) resultant matrix of supports
+##
+## CALLING SEQUENCE:
+##     `toric/mixed`(hulls, supps, allpoints);
+##     `toric/mixed`(hulls, supps, allpoints, delta);
+##     `toric/mixed`(hulls, supps, allpoints, delta, lifting);
+##
+## PARAMETERS:
+##     hulls - array of sets defining Newton polytopes
+##     supps - 3-dimensional array exrepssing supports
+##     allpoints - list of int.points in Mink.sum; ignore if integer
+##     delta - vector or list of real numbers
+##     lifting - 2-dimensional array or matrix of lifting
+## DESCRIPTION:
+## - Compute the sparse (toric) resultant matrix of the system defined by
+##   the given supports, containing indeterminate coefficients.
+##   Coefficients are labeled with respect to the sorted supports.
+##   The number of rows in the coefficients of the first polynomial
+##   is optimal.
+##   
+## - Letting n be the number of variables, n+1=lifD must be the number
+##   of polynomials.  Then supps must be an array of n+1 arrays of
+##   size n x m, where m = the number of points in that support.
+##   
+## - New argument allpoints is list of all integer points in the Minkowski
+##   sum of Newton polytopes; can be integer (for backward compatibility),
+##   in which case it is ignored.
+## 
+## - If delta is given, it is used as the geometric perturbation
+##   applied to the Minkowski sum of the Newton polytopes.
+##   The n entries must be sufficiently small in order not to perturb
+##   points in the sum outside adjacent cells in the sum's subdivision.
+##   If delta is not given, it is chosen randomly.
+##
+## - If lifting is given, it specifies the affine lifting functions
+##   of the Newton polytopes, thus defining the mixed subdivision of
+##   their Minkowski sum which will specify the matrix.
+##   It must be a square matrix of dimension n+1, each row corresponding
+##   to a Newton polytope.  If lifting is not given, it is chosen randomly.
+##
+## - The function returns a sequence of 4 objects.  The first is a list
+##   of two matrices: the resultant matrix and the denominator matrix,
+##   if RATIONAL_FORMULA=1, otherwise an empty matrix.  The second one
+##   is a list of the rows with information about how each was obtained:
+##   the corrresponding Minkowski sum point, the chosen polynomial and
+##   its monomial in the row content function of the point.  Third is the
+##   array of the sorted supports, and last is an array of the monomials
+##   appearing on the matrix diagonal.
+##
+## - The function is based on an implementation by Canny and Pedersen.
+##   The algorithm is the greedy version, by Canny and Pedersen 
+##   (Tech. Report 1394, C.S. Dept, Cornell University, 1993),
+##   of the algorithm by Canny and Emiris (Proc. AAECC-1993, pp. 89.  
+##   Final version J. ACM, 47:417-451, 2000).  See these references
+##   for a definition of the row content function.
+## 
+## EXAMPLES:
+<Font encoding="UTF-8">##&gt; supp_hull := `toric/polytope`([x^2-x+y*x-1,x*y-3,2*x-x*y-1],[x,y]):\134
+</Font>##&gt; `toric/mixed`(supp_hull[1], supp_hull[2], 0);
+##
+## toric/mixed(): Random Delta = .061 .058
+## Random affine lifting = array(1..3,1..3,[(2,3)=784,(1,1)=351,(1,2)=234,
+##   (3,2)=599,(3,1)=117,(2,2)=34,(2,1)=898,(3,3)=909,(1,3)=707])
+## [[c2x1     0      c2x2     0       0  ]   ]
+## [[                                    ]   ]
+## [[c3x1    c3x2    c3x3     0       0  ]   ]
+## [[                                    ]   ]
+## [[c1x1    c1x2    c1x3    c1x4     0  ],[]],
+## [[                                    ]   ]
+## [[ 0      c3x1     0      c3x2    c3x3]   ]
+## [[                                    ]   ]
+## [[ 0      c2x1     0       0      c2x2]   ]
+##
+##     [2]          [3]          [3]          [4]          [4]
+##   [[[ ], 2, 1], [[ ], 3, 2], [[ ], 1, 2], [[ ], 3, 2], [[ ], 2, 2]],
+##     [1]          [1]          [2]          [1]          [2]
+##
+##   [[0    1    1    2]  [0    1]  [0    1    1]]
+##   [[                ], [      ], [           ]], [{3}, {1, 2}, {2}]
+##   [[0    0    1    0]  [0    1]  [0    0    1]]
+##
+## SEE ALSO:
+## spresultant, `toric/polytope`
+##
+`toric/mixed` := proc(hulls::array, supps::array, allpoints )
+#                                                           , delta , lifting
+local        lifD,                                # number of polytopes = dimension + 1
+        delta,                                # pertubration vector
+        hullArr,                        # hullArr[p]=[d-1,#hull.verts] 
+        hull2supp,                        # hull2supp[i]=vector of #hull monoms
+        edata, i, ip, ipoly, ivert, j, k, zeroes,
+        msize,                                # sparse resultant (Newton) matrix M size
+        mons,                                # number of monoms in one polynomial
+        vt1, vt2,
+        alift,                                # lifting: input OR affine ie. random dxd matrix
+        rowsperpol,                        # number of matrix M rows per polynomial
+        guide_rows, M,                        # outputs: row coding, resultant matrix
+        denom_rows, den_ix,             # denominator rows, indices
+        diagMons,                        # array of sets w/diag.monoms per poly
+        total_time, rows_time, constr_time,
+        outList;
+global  tot_time_lp, RATIONAL_FORMULA;
+
+    total_time := time();                        # init
+    lifD := op(op(2,eval(hulls)))[2];                # #polytopes = dimension + 1
+    # lifD := rowdim(convert(hulls,matrix));
+    if RATIONAL_FORMULA=1 and lifD&gt; 9 then
+        RATIONAL_FORMULA := 0;
+<Font encoding="UTF-8">        printf(&quot;NO RATIONAL FORMULA POSSIBLE FOR &gt; 9 POLYNOMIALS due to complexity\134n&quot;);
+</Font>    fi;
+<Font encoding="UTF-8">    if RATIONAL_FORMULA=1 then printf(&quot;computing RATIONAL formula\134n&quot;);
+        else printf(&quot;computing numerator ONLY\134n&quot;); fi;
+</Font>
+    delta := `toric/randvect` (lifD-1);                         # fix type (array)
+    if nargs&gt;3 then
+        for i to lifD-1 do delta[i] := args[4][i]; od;
+            printf(&quot;toric/mixed(): Given Delta =&quot;);         # optional arg
+    else printf(&quot;toric/mixed(): Random Delta =&quot;);        # random displacement
+    fi;
+    for i from 1 to lifD-1 do printf(&quot; %.6f&quot;,delta[i]); od;
+<Font encoding="UTF-8">    printf(&quot;\134n&quot;);
+</Font>
+    if nargs&gt;4 then
+        alift := args[5];
+<Font encoding="UTF-8">        printf(&quot;Given lifting:\134n&quot;);
+</Font>        # print(eval(alift));
+    else
+            alift := `toric/randaff`(lifD);                # random affine functional as matrix dxd
+<Font encoding="UTF-8">        printf(&quot;Random affine lifting =%a.\134n&quot;,eval(alift));
+</Font>    fi;
+
+    tot_time_lp := 0;                                # initialize global timer
+<Font encoding="UTF-8">    # printf(&quot;toric/mixed(): sorting support points\134n&quot;);
+</Font>
+    hullArr := array(1..lifD);                        # explicit subsets of supp
+    if type(alift,matrix) then
+      for i from 1 to lifD do
+        outList := `toric/sort_inplace` (hulls[i],supps[i]);
+        hull2supp[i] := outList[1];                # hull2supp[hull.col]=supp.col
+        hullArr[i] := outList[2];                # submatrix of new supps[i]
+         print('hull_to_supp@hull_arr',eval(hull2supp[i]),eval(hullArr[i]));
+      od;
+    else                                        # else alift=[list-per-supp]
+      edata := NULL;                                # temp.seq of sorted lists
+      k := 0;
+      for i from 1 to lifD do
+        outList := `toric/sort_inplace`
+                (hulls[i],supps[i], [ seq(alift[i],i=(k+1)..(k+coldim(supps[i]))) ] );
+        hull2supp[i] := outList[1];
+        hullArr[i] := outList[2];
+        edata := edata, outList[3];                # list of sorted lifts of supp.
+      od;
+      alift := [edata];
+      printf(&quot;Sorted liftings,supps =%a&quot;,eval(alift)); print(hullArr);
+    fi;
+
+    if false then
+      lprint(`The coeff labels correspond to the sorted supports:`);
+      if lifD=2 then print(eval(supps[1]),eval(supps[2]));
+        elif lifD=3 then print(eval(supps[1]),eval(supps[2]),eval(supps[3]));
+        else for i from 1 to lifD do lprint(eval(supps[i])); od;
+      fi;
+<Font encoding="UTF-8">      printf(&quot;toric/mixed(): computing data common to all vertex equations\134n&quot;);
+</Font>    fi;
+
+    edata:= `toric/make_eqns`(hullArr,alift,lifD);  # =[obj,conveq,lhs,#verts] 
+
+    if type(allpoints,integer) then
+      vt1 := `toric/start_vertex` (hullArr,lifD,edata,delta);
+<Font encoding="UTF-8">      printf(&quot;Passing start vertex=%a.\134n&quot;,eval(vt1));
+</Font>    else
+      if not type(allpoints,list) then ERROR(`bad type of allpoints`) fi;
+      vt1 := allpoints;
+<Font encoding="UTF-8">      printf(&quot;Passing %d allpoints instead of start vertex.\134n&quot;,nops(allpoints));
+</Font>    fi;
+
+<Font encoding="UTF-8">     printf(&quot;greedy search for row indices\134n&quot;);
+</Font>    rows_time := time();
+    if lifD=3 then
+<Font encoding="UTF-8">        # printf(&quot;computing rows by special 2-dim routine\134n&quot;);
+</Font>        print(eval(hullArr), supps, edata, delta);
+        outList := `toric/comp_rows_2` (hullArr, supps, edata, vt1, delta,2);
+        guide_rows := outList[1];
+        denom_rows := outList[2];
+    else
+<Font encoding="UTF-8">        # printf(&quot;computing rows by general-dim routine\134n&quot;);
+</Font>        outList := `toric/compute_rows` (hullArr, supps, edata, vt1, delta, lifD, 2);
+        guide_rows := outList[1];
+        denom_rows := outList[2];
+    fi;
+    rows_time := time() - rows_time;
+
+    # printf(&quot;toric/mixed(): got guide_rows=&quot;); lprint(guide_rows);
+
+    constr_time := time();
+    msize := nops(guide_rows);
+<Font encoding="UTF-8">    printf(&quot;toric/mixed(): constructing %d-dim matrix\134n&quot;,msize);
+</Font>   # print(eval(guide_rows));
+    M := array(1..msize, 1..msize);
+    rowsperpol := vector(lifD,0); 
+
+    # diagonal monomials
+
+    diagMons := array(1..lifD);
+    for i from 1 to lifD do diagMons[i] := {}; od;
+    vt1 := 0;                        # reset
+
+    for i from 1 to msize do
+      ivert := guide_rows[i];        # one row as list of 3 elts:
+                                      # [Mink.sum pt, poly.indx, monom in hullArr]
+
+      ip := ivert[2];                # 1 &lt;= ip &lt;= numpolys=d
+      rowsperpol[ip] := rowsperpol[ip] + 1;
+      vt1 := matadd(ivert[1], col(hullArr[ip], ivert[3]), 1, -1);
+      ipoly := supps[ip];
+      mons := coldim(ipoly);
+
+      j := 1;
+      for k from 1 to mons do
+            vt2 := matadd(col(ipoly,k), vt1);        # vt2 = col monom
+            while not equal(eval(vt2), guide_rows[j][1]) do
+                      if j&gt;msize then ERROR(`cant find monom vt2`) fi;
+                M[i, j] := 0;
+                j := j + 1;
+            od;
+            M[i, j] := cat(`c`,ip,`x`,k);
+            j := j + 1;
+      od;        # k-th monomial
+      # print(`ivert=`,ivert,`vt1=`,vt1,`ipoly=`,ipoly,`mons=`,mons);
+
+      zeroes := j;                                # rest of row is zero
+      for j from zeroes to msize do M[i, j] := 0; od;
+
+      # to deal w/degeneracy: indices of monomials on diagonal
+      # ivert[3] indexes in hullArr, only supps passed on w/diagMons
+      diagMons[ip] := diagMons[ip] union { hull2supp[ip][ivert[3]] };
+<Font encoding="UTF-8">      # print(i,`-th row done:`,eval(ivert[1]), eval(col(hullArr[ip],ivert[3])),eval(vt1),\134
+</Font>      #           ivert[3],eval(hull2supp[ip][ivert[3]]),`diagMons=`,diagMons);
+
+    od;                # i-th row
+
+    den_ix := NULL;
+    if RATIONAL_FORMULA=1 then
+        # print(&quot;constructing denominator, with:&quot;,denom_rows,guide_rows);
+        k := 1;
+        for i to msize do
+          if (k &lt;= nops(denom_rows)) and equal( denom_rows[k][1], guide_rows[i][1]) then
+            den_ix := eval(den_ix), i;
+            k := k + 1;
+          fi;
+        od; #i
+        if k &lt;&gt; nops(denom_rows)+1 then ERROR(`error in counting denom`) fi;
+    fi;#RATIONAL_FORMULA
+
+    constr_time := time() - constr_time; 
+<Font encoding="UTF-8">    # printf(&quot;toric/mixed: Delta = %a\134n&quot;, eval(delta));
+    printf(&quot;Subdivision resultant matrix of size %d x %d.\134n&quot;,rowdim(M),coldim(M));
+    if rowdim(M)=1 then printf(&quot;SPARSE RESULTANT MAY BE POWER OF MATRIX DETERMINANT\134n&quot;) fi;
+    # printf(&quot;Number of rows per polynomial=%a\134n&quot;,eval(rowsperpol));
+    # printf(&quot;Monomials on the diagonal are:\134n&quot;,eval(diagMons));
+</Font>    if RATIONAL_FORMULA=1 then
+<Font encoding="UTF-8">        printf(&quot;denominator matrix of dim %d.\134n&quot;,nops(denom_rows));
+</Font>    fi;
+
+    if true then
+      total_time := time() - total_time;
+<Font encoding="UTF-8">      printf(&quot;timings[secs] and percents:\134n&quot;);
+</Font>      printf(&quot;optimize=%as (%2.0f%%), find rows=%as (%2.0f%%),&quot;,
+        tot_time_lp,100*tot_time_lp/total_time,rows_time,100*rows_time/total_time);
+<Font encoding="UTF-8">      printf(&quot;construct=%as (%2.0f%%), total=%as\134n&quot;,
+</Font>        constr_time,100*constr_time/total_time,total_time);
+    fi;
+
+<Font encoding="UTF-8">    printf(&quot;mixed returning [numM,denM],[pts,RC],supps,diagMons,denom_rows\134n&quot;);
+    RETURN ([ evalm(M), submatrix(M,[den_ix],[den_ix])],eval(guide_rows),eval(supps),\134
+</Font>        eval(diagMons),eval(denom_rows) );
+end: # toric/mixed
+
+#----------------------------------------------------------------------
+addtohelp(`toric/matspec`):
+#---------------------------------------------------------------------- 
+## HELP `toric/matspec`
+##
+## `toric/matspec` - specialize (numerator and denominator) matrices
+##
+## CALLING SEQUENCE:
+##     `toric/matspec`(inlist, polyns, elvars, Int_Coefs)
+##
+## PARAMETERS:
+##     inlist - list of data from spresultant
+##     polyns - list of input polynomials
+##     elvars - list of eliminated variables
+##     Int_Coefs - boolean (default)
+##
+## DESCRIPTION:
+## - De-assemble &quot;inlist&quot; and get coefficients, apply perturbation if
+##   necessary to diagonal elements.
+##
+## - Items of &quot;inlist&quot;: 1st item is list of 2 matrices with generic
+##   coefficients. 2nd is monomials indexing numerator-matrix columns.
+##   3rd is array of support matrices. If PERT_DEGEN_COEFS, 4th item
+##   contains diagonal entries.
+##
+## - The function returns a list of 2 specialized matrices: numerator
+##   and denominator.
+##
+## SEE ALSO:
+## spresultant
+##
+##
+`toric/matspec` := proc (inList::list, polyns::list, elvars::list, Int_Coefs::boolean)
+  local symbMat, specMat, suppArr, colMons, diagMon, elvarsArr,
+        specSet, coefval, pertCoef, i, j, flag, mm, numvar;
+  global RATIONAL_FORMULA, PERT_DEGEN_COEFS;
+
+  numvar := nops(elvars);
+  symbMat := eval(inList[1]);                # array/list
+  if RATIONAL_FORMULA=1 and not type(symbMat[2],matrix) then
+        ERROR(`no denominator computed`)
+  fi; 
+  colMons := map(el-&gt;el[1],inList[2]);
+<Font encoding="UTF-8">  # printf(&quot;monomials indexing matrix columns %a:\134n&quot;,colMons);
+</Font>
+  suppArr := eval(inList[3]);                # sorted supports used for cixj in symbMat
+  if PERT_DEGEN_COEFS&gt;0 then 
+    diagMon := eval(inList[4]);                # array(1..d) of sets
+  fi;
+
+  elvarsArr := array(1..numvar,elvars);
+  specSet := {};
+
+  # treat special/degenerate coefficients by adding t-system
+
+  if PERT_DEGEN_COEFS&gt;0 then
+    pertCoef := array(1..(numvar+1));
+    # lprint(`spresultant() fills`,eval(pertCoef),`from`,eval(diagMon)); 
+    for i from 1 to (numvar+1) do
+      pertCoef[i] := vector(coldim(suppArr[i]),0);        # some pertCoef=0
+      flag := false;                                        # exists pertCoef=1
+      for j in diagMon[i] do                                # index into support
+        if not flag then pertCoef[i][j] := 1; flag := true;
+        else
+          pertCoef[i][j] := RandSign()*rand(1..(10^ceil(evalf(log[2](numvar)))))();
+           if not type(pertCoef[i][j],numeric) then ERROR(`no numeric pert.coeff`) fi;
+        fi;
+      od;
+    od;        #for i
+  fi;
+
+  # i=1 must be u-polynomial in u-resultant
+  for j from 1 to coldim(suppArr[1]) do
+    coefval := `toric/coefofexp`(polyns[1],elvarsArr,col(suppArr[1],j));
+    if Int_Coefs then coefval := `toric/map_coefs`(round,coefval); fi;
+    if PERT_DEGEN_COEFS&gt;0 and type(PERT_DEGEN_COEFS,odd) then                
+      coefval := coefval+t*pertCoef[1][j];         # overconstrained
+    fi;
+    specSet := eval(specSet) union {`c1x`||j = eval(coefval) }
+  od;
+  for i from 2 to (numvar+1) do for j from 1 to coldim(suppArr[i]) do
+    coefval := `toric/coefofexp`(polyns[i],elvarsArr,col(suppArr[i],j));
+    if Int_Coefs then coefval := `toric/map_coefs`(round,coefval); fi;
+    if PERT_DEGEN_COEFS&gt;0 then coefval := coefval+t*pertCoef[i][j]; fi;
+    specSet := eval(specSet) union {`c`||i||`x`||j = eval(coefval) }
+  od; od;
+
+<Font encoding="UTF-8">  # printf(&quot;using specialized coefficients:%a\134n&quot;,eval(specSet));
+</Font>
+  for mm from 1 to 1+RATIONAL_FORMULA do
+    specMat[mm] := matrix (rowdim(symbMat[mm]),coldim(symbMat[mm]),0); 
+    for i from 1 to rowdim(symbMat[mm]) do for j from 1 to coldim(symbMat[mm]) do
+      if symbMat[mm][i,j]&lt;&gt;0 then
+        specMat[mm][i,j] := subs (specSet, symbMat[mm][i,j]);
+      fi;
+    od; od;
+  od; # matrix mm
+  
+  RETURN ([ evalm(specMat[1]), evalm(specMat[2]), eval(colMons) ]);
+end:          # `toric/matspec`
+PERT_DEGEN_COEFS := 0:
+#----------------------------------------------------------------------
+addtohelp(spresultant):
+#----------------------------------------------------------------------
+## HELP spresultant
+##
+## spresultant - Sparse (toric) resultant matrix of polynomials
+##
+## CALLING SEQUENCE:
+##     spresultant(pols, vars);
+##     spresultant(pols, vars, delta);
+##     spresultant(pols, vars, delta, lifting);
+##
+## PARAMETERS:
+##     pols - list of polynomials
+##     vars - list of variables
+##     delta - vector or list of real numbers
+##     lifting - 2-dimensional array of lifting
+## DESCRIPTION:
+## - Compute the sparse (toric) resultant matrix of the given polynomials
+##   by eliminating variables vars.  The number of rows in the
+##   coefficients of the first polynomial is optimal (equal to the
+##   respective degree of the sparse resultant).
+##
+## - Letting n be the number of variables, n+1 must be the number of
+##   polynomials.
+##
+## - If delta is given, it is used as the geometric perturbation
+##   applied to the Minkowski sum of the Newton polytopes.
+##   It must contain n entries, sufficiently small in order not to perturb
+##   points in the sum outside adjacent cells in the sum's subdivision.
+##   If delta is not given, it is chosen randomly.
+##
+## - If lifting is given, it specifies the affine lifting functions
+##   of the Newton polytopes, thus defining the mixed subdivision of
+##   their Minkowski sum which will specify the matrix.
+##   It must be a square matrix of dimension n+1, each row corresponding
+##   to a Newton polytope.  If lifting is not given, it is chosen randomly.
+##
+## - The function returns a square matrix, whose determinant is a multiple
+##   of the sparse resultant for generic coefficients.  For degenerate
+##   coefficients, a perturbation can be defined by setting global variable
+##   PERT_DEGEN_COEFS, as described by D'Andrea and Emiris (Computing Sparse
+##   Projection Operators, In &quot;Symbolic Computation: Solving Equations in
+##   Algebra, Geometry, and Engineering, AMS, 2001).  The 2nd returned item
+##   is a list of the monomials indexing the columns.
+##
+## - The matrix construction implements the greedy version, by Canny and
+##   Pedersen (Tech. Report 1394, C.S. Dept, Cornell University, 1993),
+##   of the algorithm by Canny and Emiris (Proc. AAECC-1993.  Final version
+##   J. ACM, 47:417-451, 2000).
+##
+## EXAMPLES:
+##&gt; spresultant([x^2-x*z^2+y*x+z-1,x*y*z-3,2*x-x*y-z],[x,y]);
+##
+## toric/mixed(): Random Delta =  -.035 .044
+## Random affine lifting = array(1..3,1..3, [(1,2)=882,(3,1)=537,(3,3)=209,(2,3)=82,
+##   (2, 2)=582,(1, 1)=828,(3, 2)=374,(2, 1)=736,(1, 3)=176])
+##   [-3   0   z  0  0]
+##   [ 0  -3   0  0  z]
+##   [-z   2  -1  0  0], [[1],[2],[2],[3],[3]]
+##   [      2         ]   [1] [1] [2] [1] [2]
+##   [z-1 -z   1  1  0]
+##   [ 0  -1   0  2 -1]
+##
+##&gt; spresultant([x+3*y,2*x-y+5*x^2*y,u0+u1*x+u2*y],[x,y],
+## [.028,.078],matrix([[15,149,392],[222,381,684],[35,350,57]]));
+## toric/mixed(): Given Delta = .028 .078
+##                   [ 15 149 392]
+##  Given lifting =, [222 381 684]
+##                   [ 35 350  57]
+##   [ 3  0 1  0  0  0]
+##   [ 0  3 0  1  0  0]
+##   [-1  0 2  0  0  5], [[1],[1],[2],[2],[2],[3]]
+##   [u0 u2 0 u1  0  0]   [2] [3] [1] [2] [3] [2]
+##   [ 0  0 0  0  3  1]
+##   [ 0  0 0 u0 u2 u1]
+##
+## SEE ALSO:
+## `toric/mixed`
+##
+spresultant := proc (in_polyns::list, elvars::list )
+#                                              , delta, lifting
+  local outList, polyns, numvar, i, j, pol, req_args, INTEGER_COEFFS;
+  global PERT_DEGEN_COEFS; 
+ 
+  unassign('x');                 # strings to be used later
+  unassign('lam');
+
+  # 0: no pert, 1: overcons, random pert, 2: u-res/random pert
+  if PERT_DEGEN_COEFS=1 then
+<Font encoding="UTF-8">    printf(&quot;WILL PERTURB MATRIX BY RANDOM PERTURBATION OF OVERCONSTRAINED SYSTEM\134n&quot;);
+</Font>  elif PERT_DEGEN_COEFS=2 then
+<Font encoding="UTF-8">    printf(&quot;WILL PERTURB WELLCONSTRAINED SYSTEM, LEAVE 1st POLYNOMIAL AS IS\134n&quot;);
+</Font>  fi;
+
+  INTEGER_COEFFS := true;
+  if INTEGER_COEFFS then polyns := map(`toric/scaled`,in_polyns);
+  else polyns := in_polyns; fi;
+
+  req_args := 2;
+  if nargs&lt;req_args then ERROR(`small number of arguments to spresultant()`) fi;
+  numvar := nops(elvars);
+  if nops(polyns) &lt;&gt; (numvar+1) then ERROR(`bad #polynomials=`,nops(polyns)) fi;
+
+  polyns := map(expand,polyns);
+  for i from 1 to numvar+1 do for j from 1 to numvar do
+    polyns[i] := simplify (polyns[i] * elvars[j]^(-ldegree(polyns[i],elvars[j])));
+  od; od;
+
+  # no output to file; outList=[suppArr, hullSet]
+  # suppArr[p]=mat[dim,num], hullSet[p]=set of columns in suppArr[p]
+
+  outList := `toric/polytope` (polyns, elvars, 0);
+  print(outList);
+
+  # 3rd arg=0: no info on int.points in Mink.sum
+  # outList &lt;- seq: symb.matrix, row guide list, sorted supps, diag.monoms
+
+  if nargs=req_args then
+    outList := `toric/mixed` (eval(outList[1]), eval(outList[2]), 0);
+  elif nargs=req_args+1 then
+    outList := `toric/mixed` (eval(outList[1]), eval(outList[2]), 0, args[3]);
+  elif nargs=req_args+2 then
+    outList := `toric/mixed` (eval(outList[1]), eval(outList[2]), 0, args[3], args[4]);
+  fi;
+
+  outList := `toric/matspec` (eval([outList]), polyns, elvars, INTEGER_COEFFS);
+
+  RETURN (outList);
+end:          # spresultant
+
+# inputs:
+#   pointArr = dxn array point coords: d=dimension, n=#points
+#   limit = iteration limit
+# output
+#   subset of pointArr column indices, expressing vertices
+#
+# Algorithm for (approximating) vertices of convex hull by
+# sorting input points in random directions to find some vertices
+#   but certain vertex may not be seen
+#   in lo-dim hull, int.pt may be both min &amp; max: dont accept it
+#   tie in certain direction may give boundary point but not vertex
+# Canny-Pedersen used to obtain randomized superset of vertices
+# Now used to obtain certified subset of vertices
+# deterministically use LinProg to check remaining points
+#
+`toric/comp_hull` := proc(pointArr::matrix, limit::integer)
+
+  local        dim, i, j,
+        mx, maxindex, maxtie, mn, minindex, mintie,
+        num, rv,
+              vertset, unprocessed, interior,
+        vertlhs, conveq, convsum, lambda, sub, temp;
+
+    dim := rowdim(pointArr);                # dim = dimension
+    num := coldim(pointArr);                # num = numbers of points
+
+    # randomized computation of subset of verts if hull full dimensional
+
+    vertset := {};
+    unassign('i');
+    unprocessed := {i$i=1..num};
+
+    for i from 1 to limit do
+        rv := randmatrix(1,dim);
+        rv := scalarmul(rv, 1/ `toric/twonorm`(rv));
+        # lprint(`randvector`,eval(rv));
+
+        minindex := 1;
+        maxindex := 1;
+        mn := multiply(rv, col(pointArr, 1));
+        mn := mn[1];
+        mx := eval(mn);
+        mintie := false; maxtie := false;
+
+        for j from 2 to num do
+            temp := multiply(rv, col(pointArr, j));
+            temp := temp[1];
+            if temp &lt; mn then
+                minindex := j;
+                mn := temp;
+                mintie := false;
+            elif temp &gt; mx then
+                maxindex := j;
+                mx := temp;
+                maxtie := false;
+            else
+                if temp=mn then mintie := true; fi;
+                     if temp=mx then maxtie := true; fi;
+            fi;
+        od; #j
+
+        # mn=mx iff degenerate hull, then dont decide
+        # mintie or maxtie may have extreme pt, not vertex: dont decide
+        if minindex&lt;&gt;maxindex then
+          if not mintie then
+            vertset := vertset union {minindex};
+            unprocessed := unprocessed minus {minindex};
+              # lprint(`vertex w/min inn.prod`,minindex,eval(mn));
+          fi;
+          if not maxtie then
+            vertset := vertset union {maxindex};
+            unprocessed := unprocessed minus {maxindex};
+              # lprint(`vertex w/max inn.prod`,maxindex,eval(mx));
+          fi;
+        fi;
+
+    od; #i: ends `limit` random iterations
+
+    # lprint (`undecided`,unprocessed); 
+
+    # Now use LP to check other vertices
+
+    lambda := matrix(1, num);                         # new variables
+    for i from 1 to num do lambda[1,i] := cat(`lam`,i) od;
+    interior := {};
+    unassign('j');
+    temp := { j$j=1..num };                        # check pt against hull(temp)
+    
+    # lprint (`subset of verts`,vertset);
+    # lprint(`check undecided:`,eval(unprocessed),`by LP using:`,eval(temp));
+
+    # while (work minus work1 &lt;&gt; {}) or (work1 minus work &lt;&gt; {}) do work:=work1;
+
+    for i in unprocessed do
+                temp := temp minus {i};
+            sub := convert(temp,list);                # superset of vertices
+            convsum := 0;
+            for j in temp do
+              convsum := convsum + lambda[1,j]
+            od;
+            conveq := {convsum = 1};                         # convexity
+            vertlhs := multiply(submatrix(pointArr, 1..dim, sub),
+                                transpose(submatrix(lambda, [1], sub)));
+            for j from 1 to dim do
+                conveq := conveq union {vertlhs[j, 1] = pointArr[j, i]}
+            od;
+            # lprint (`running LP on`,col(pointArr,i));
+            if feasible(conveq, NONNEGATIVE) then 
+                # lprint (`LP:interior point`,col(pointArr,i));
+                interior := interior union {i};
+                if member(i,vertset) then
+                  ERROR(`interior pt in vtx subset`)
+                fi;
+            else
+                vertset := vertset union {i};
+                        temp := temp union {i};
+            fi;
+    od; #i
+
+    eval(vertset);
+    # submatrix(pointArr, 1..dim, convert(vertset, list));
+
+end: # `toric/comp_hull`</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVExUkFUSU9OQUxfRk9STVVMQUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOQ==">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="2D Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="g1 := (-a1*b*u[i]+a1*u[i+1])*y[1]+u[i]*(-b*u[i]+b+u[i+1]-1);" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZdby1JI21pR0YkNiVRI2cxRicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RKiZjb2xvbmVxO0YnRjIvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZJLUY2Ni1RIn5GJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGUC1JKG1mZW5jZWRHRiQ2JC1GIzYxLUYsNiVRI2ExRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRidGTC1GLDYlUSJ1RidGL0YyLUZTNiYtRiM2KUZMLUYsNiVRImlGJ0YvRjItRjY2LVEiK0YnRjJGOUY7Rj1GP0ZBRkNGRS9GSFEsMC4yMjIyMjIyZW1GJy9GS0Zmby1JI21uR0YkNiRRIjFGJ0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHRjFGMkYyLyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRkwtRjY2LVEqJnVtaW51czA7RidGMkY5RjtGPUY/RkFGQ0ZFRmVvRmdvRldGTC1GLDYlUSJiRidGWkZmbkZMLUYsNiVGam5GWkZmbi1GUzYmLUYjNiYtRiw2JUZhb0ZaRmZuRlxwRl9wRjJGMkZhcEZkcEZccEZfcEYyRjJGTC1GLDYlUSJ5RidGWkZmbi1GUzYmLUYjNiZGaG9GXHBGX3BGMkYyRmFwRmRwRmJvRl1xRl9xRkwtRlM2JC1GIzYzRmdwLUYsNiVGXHFGL0YyRkxGTEZobi1GUzYmLUYjNiZGX29GXHBGX3BGMkYyRmFwRmRwRmJvRmpwRkxGYm9GXXEtRlM2Ji1GIzYoRl9vRmJvRmhvRlxwRl9wRjJGMkZhcEZkcC1GNjYtUSgmbWludXM7RidGMkY5RjtGPUY/RkFGQ0ZFRmVvRmdvRmhvRlxwRl9wRjJGMi1GNjYtUSI7RidGMkY5L0Y8RmVuRj1GP0ZBRkNGRUZPRkotSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdGUC8lJmRlcHRoR0Zmcy8lKmxpbmVicmVha0dRKG5ld2xpbmVGJy1GYnM2JkZkc0Znc0Zpcy9GXHRRJWF1dG9GJy1GLDYlUSNnMkYnRi9GMkY1RkwtRiw2JUZncUYvRjItRlM2Ji1GIzYkLUZpbzYkUSIyRidGMkYyRjJGYXBGZHBGTC1GUzYkLUYjNjFGV0ZMRkxGXXEtRlM2Ji1GIzYmRl9vRmJvRlt1RjJGMkZhcEZkcEZMRmdwLUYsNiVGWUYvRjJGTEZgckZMRmhuLUZTNiYtRiM2JkZfb0Zib0Zob0YyRjJGYXBGZHAtRiw2JVEhRidGWkZmbkYyRjJGTEZib0ZobkZodUZMLUZTNiQtRiM2L0ZncEZgckZMRmhuRmh1RmJvRmByRmJvRmhuRmJ1RmpyRmhvRjJGMkZdc0Zhc0ZedC1GLDYlUSNnM0YnRi9GMkY1RkxGTEZldC1GUzYmLUYjNiRGaG9GMkYyRmFwRmRwRkwtRlM2JC1GIzYvRmdwLUYsNiVRI2EyRidGWkZmbkZMRmpwRkxGXXEtRlM2Ji1GIzYkRl9vRjJGMkZhcEZkcEZMRmJvRmpwRmpyRmhvRjJGMkZqckZqcEZMRmVxLUklbXN1cEdGJDYlRmZ2Rml0LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Ziby1GLDYlRmB3Ri9GMkZMRmV0Rmd0RkxGaG5GYXdGYm9GZXRGZ3RGZXRGaHFGXXNGTEZhc0Zhc0ZcdkZccEZfcEYy">Qyg+SSNnMUc2IiwmKiYsJiooSSNhMUdGJSIiIkkiYkdGJUYrJkkidUdGJTYjSSJpR0YlRishIiIqJkYqRismRi42IywmRjBGK0YrRitGK0YrRismSSJ5R0YlNiNGK0YrRisqJkYtRissKiomRixGK0YtRitGMUYsRitGM0YrRjFGK0YrRitGKz5JI2cyR0YlLCYqJiZGNzYjIiIjRissJiooRipGK0YsRitGM0YrRjEqJkYqRismRi42IywmRjBGK0ZCRitGK0YrRitGKyomRjNGKywqKiZGLEYrRjNGK0YxRixGK0ZGRitGMUYrRitGK0YrPkkjZzNHRiUsKiomRjZGKywoKihJI2EyR0YlRitGLEYrRi1GK0YxRixGK0YxRitGK0YrKiZGLEYrRjZGQkYxKihGUkYrRkBGK0YtRitGKyomRkBGK0Y2RitGK0Yr</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjZzFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtRiM2Ji1JKG1mZW5jZWRHRiQ2JC1GIzYnLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZmbi1GIzYoLUYsNiVRI2ExRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GYW8tRiw2JVEiYkYnRi9GMkZdby1JJW1zdWJHRiQ2JS1GLDYlUSJ1RidGL0YyLUYjNiUtRiw2JVEiaUYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSEZlbkZnbi1GIzYmRmpuRl1vLUZnbzYlRmlvLUYjNiUtRiM2JkZecEZncC1JI21uR0YkNiRRIjFGJ0Y5RjlGYXBGOUZkcEY5RjlGOUZdby1GZ282JS1GLDYlUSJ5RidGL0YyLUYjNiVGYnFGYXBGOUZkcEY5RmdwLUYjNiZGZm9GXW8tRlQ2JC1GIzYrRlgtRiM2JkZjb0Zdb0Zmb0Y5RmdwRmNvRmdwRlxxLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGZW5GZ25GYnFGOUY5RjlGOUZhcEY5">LCYqJiwmKihJI2ExRzYiIiIiSSJiR0YnRigmSSJ1R0YnNiNJImlHRidGKCEiIiomRiZGKCZGKzYjLCZGLUYoRihGKEYoRihGKCZJInlHRic2I0YoRihGKComRipGKCwqKiZGKUYoRipGKEYuRilGKEYwRihGLkYoRihGKA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjZzJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtRiM2Ji1JJW1zdWJHRiQ2JS1GLDYlUSJ5RidGL0YyLUYjNiUtSSNtbkdGJDYkUSIyRidGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GY28tSShtZmVuY2VkR0YkNiQtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXnAtRiM2KC1GLDYlUSNhMUYnRi9GMkZfby1GLDYlUSJiRidGL0YyRl9vLUZUNiUtRiw2JVEidUYnRi9GMi1GIzYlLUYjNiYtRiw2JVEiaUYnRi9GMi1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIRl1wRl9wLUZmbjYkUSIxRidGOUY5RmluRjlGXG9GOUZkcS1GIzYmRmJwRl9vLUZUNiVGanAtRiM2JS1GIzYmRmFxRmRxRmVuRjlGaW5GOUZcb0Y5RjlGOUY5RmRxLUYjNiZGaHBGX28tRmZvNiQtRiM2K0Zqby1GIzYmRmVwRl9vRmhwRjlGZHFGZXBGZHFGXHItRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZdcEZfcEZncUY5RjlGOUY5RmluRjk=">LCYqJiZJInlHNiI2IyIiIyIiIiwmKihJI2ExR0YmRilJImJHRiZGKSZJInVHRiY2IywmSSJpR0YmRilGKUYpRikhIiIqJkYsRikmRi82IywmRjJGKUYoRilGKUYpRilGKSomRi5GKSwqKiZGLUYpRi5GKUYzRi1GKUY1RilGM0YpRilGKQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjZzNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiotRiM2Ji1JJW1zdWJHRiQ2JS1GLDYlUSJ5RidGL0YyLUYjNiUtSSNtbkdGJDYkUSIxRidGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GY28tSShtZmVuY2VkR0YkNiQtRiM2KS1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXnAtRiM2KC1GLDYlUSNhMkYnRi9GMkZfby1GLDYlUSJiRidGL0YyRl9vLUZUNiUtRiw2JVEidUYnRi9GMi1GIzYlLUYsNiVRImlGJ0YvRjJGaW5GOUZcb0Y5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkhGXXBGX3BGZXAtRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZdcEZfcEZlbkY5RjlGOUZlcS1GIzYmRmVwRl9vLUkobXN1YnN1cEdGJDYnRlZGWS1GZm42JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R0Zeb0Zcb0Y5RmJxLUYjNihGYnBGX28tRlQ2JUZWLUYjNiVGXXJGaW5GOUZcb0Zfb0ZocEY5RmJxLUYjNiZGZHJGX29GU0Y5RjlGaW5GOQ==">LCoqJiZJInlHNiI2IyIiIkYoLCgqKEkjYTJHRiZGKEkiYkdGJkYoJkkidUdGJjYjSSJpR0YmRighIiJGLEYoRjFGKEYoRigqJkYsRihGJCIiI0YxKihGK0YoJkYlNiNGM0YoRi1GKEYoKiZGNUYoRiRGKEYo</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">spresultant([g1,g2,g3],[y[1],y[2]]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkobWZlbmNlZEdGJDYmLUknbXRhYmxlR0YkNjUtSSRtdHJHRiQ2KC1JJG10ZEdGJDYoLUYsNiYtRiM2Jy1JI21uR0YkNiRRIjFGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUSIsRidGPy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0ZILyUqc3ltbWV0cmljR0ZILyUobGFyZ2VvcEdGSC8lLm1vdmFibGVsaW1pdHNHRkgvJSdhY2NlbnRHRkgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GPDYkUSIyRidGPy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGP0Y/LyUlb3BlbkdRInxmckYnLyUmY2xvc2VHUSJ8aHJGJy8lKXJvd2FsaWduR1EhRicvJSxjb2x1bW5hbGlnbkdGZG8vJStncm91cGFsaWduR0Zkby8lKHJvd3NwYW5HRj4vJStjb2x1bW5zcGFuR0Y+RjQtRjU2KC1GLDYmLUYjNitGO0ZCRmZuRkItRjw2JFEiM0YnRj9GQi1GPDYkUSI0RidGP0ZpbkY/Rj9GXG9GX29GYm9GZW9GZ29GaW9GW3BGYm9GZW9GZ28vJSZhbGlnbkdRJWF4aXNGJy9GY29RKWJhc2VsaW5lRicvRmZvUSdjZW50ZXJGJy9GaG9RJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR0ZLLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGZnEvJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGYXIvJSZmcmFtZUdGYXIvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR0ZILyUtZXF1YWxjb2x1bW5zR0ZILyUtZGlzcGxheXN0eWxlR0ZILyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRl5yRj8vRl1vUSJbRicvRmBvUSJdRidGQi1GLDYmLUYvNjUtRjI2KC1GNTYoLUYsNiYtRiM2JS1GLzY2LUYyNictRjU2KC1GPDYkUSIwRidGP0Zib0Zlb0Znb0Zpb0ZbcC1GNTYoRjtGYm9GZW9GZ29GaW9GW3BGYm9GZW9GZ28tRjI2J0ZodEZodEZib0Zlb0Znb0ZpcEZccS9GZm9GYXNGYHFGYnFGZHFGZ3FGaXFGXHJGX3JGYnJGZHJGZnJGaXJGW3NGXXNGX3NGYnNGaW5GP0Y/RmRzRmZzRmJvRmVvRmdvRmlvRltwLUY1NigtRiw2Ji1GIzYlLUYvNjZGX3VGZnRGaXBGXHFGYXVGYHFGYnFGZHFGZ3FGaXFGXHJGX3JGYnJGZHJGZnJGaXJGW3NGXXNGX3NGYnNGaW5GP0Y/RmRzRmZzRmJvRmVvRmdvRmlvRltwLUY1NigtRiw2Ji1GIzYlLUYvNjYtRjI2KUZddUZodC1GNTYoRmZuRmJvRmVvRmdvRmlvRltwRl11RmJvRmVvRmdvLUYyNilGaHRGXXVGaHRGXXVGYm9GZW9GZ29GaXBGXHFGYXVGYHFGYnFGZHFGZ3FGaXFGXHJGX3JGYnJGZHJGZnJGaXJGW3NGXXNGX3NGYnNGaW5GP0Y/RmRzRmZzRmJvRmVvRmdvRmlvRltwRmJvRmVvRmdvRmlwRlxxRl5xRmBxRmJxRmRxRmdxRmlxRlxyRl9yRmJyRmRyRmZyRmlyRltzRl1zRl9zRmJzRj9GZHNGZnNGaW5GPw==">NiQ9NiI2IzsiIiIiIiRFXFtsJEYnPCRGJyIiI0YrRipGKDwmRidGK0YoIiIlPUYkRiVFXFtsJEYnPUYkNiQ7RidGK0YyRVxbbCU2JEYrRiciIiE2JEYrRitGNTYkRidGK0YnNiRGJ0YnRjVGKz1GJEYxRVxbbCVGNEY1RjZGJ0Y3RjVGOEY1Rig9RiQ2JEYyO0YnRi1FXFtsKUY0RjU2JEYrRihGNUY2Ric2JEYnRihGK0Y3RjU2JEYnRi1GJzYkRitGLUYnRjhGJw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">computing RATIONAL formula
+toric/mixed(): Random Delta = -0.005000 0.017500
+Random affine lifting =array(1 .. 3, 1 .. 3,[(2, 1)=393,(2, 3)=187,(2, 2)=845,(1, 3)=940,(3, 1)=656,(3, 3)=454,(3, 2)=897,(1, 2)=174,(1, 1)=362]).</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUYjNictSSNtaUdGJDYlUS1odWxsX3RvX3N1cHBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJARicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRLDAuMTExMTExMWVtRicvJSdyc3BhY2VHRk4tRi42JVEpaHVsbF9hcnJGJ0YxRjQvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjstRjg2LVEiLEYnRjtGPS9GQUYzRkJGREZGRkhGSi9GTVEmMC4wZW1GJy9GUFEsMC4zMzMzMzMzZW1GJy1JKG1mZW5jZWRHRiQ2Ji1JJ210YWJsZUdGJDY1LUkkbXRyR0YkNictSSRtdGRHRiQ2KC1JI21uR0YkNiRRIjFGJ0Y7LyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0ZbcC8lK2dyb3VwYWxpZ25HRltwLyUocm93c3BhbkdGaG8vJStjb2x1bW5zcGFuR0Zoby1GY282KC1GZm82JFEiMkYnRjtGaW9GXHBGXnBGYHBGYnBGaW9GXHBGXnAvJSZhbGlnbkdRJWF4aXNGJy9Gam9RKWJhc2VsaW5lRicvRl1wUSdjZW50ZXJGJy9GX3BRJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR0YzLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGZnEvJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGYXIvJSZmcmFtZUdGYXIvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR0Y/LyUtZXF1YWxjb2x1bW5zR0Y/LyUtZGlzcGxheXN0eWxlR0Y/LyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRl5yRjsvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGVy1Gam42Ji1GIzYlLUZdbzY2LUZgbzYnLUZjbzYoLUZmbzYkUSIwRidGO0Zpb0ZccEZecEZgcEZicEZib0Zpb0ZccEZecC1GYG82J0ZidEZidEZpb0ZccEZecEZpcEZccS9GXXBGYXNGYHFGYnFGZHFGZ3FGaXFGXHJGX3JGYnJGZHJGZnJGaXJGW3NGXXNGX3NGYnNGVEY7RjtGZHNGZ3NGVEY7">NiUtSSJARzYiNiRJLWh1bGxfdG9fc3VwcEdGJUkpaHVsbF9hcnJHRiU9RiU2IzsiIiIiIiNFXFtsI0YsRixGLUYtPUYlNiRGK0YrRVxbbCU2JEYtRiwiIiE2JEYtRi1GMzYkRixGLUYsNiRGLEYsRjM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUYjNictSSNtaUdGJDYlUS1odWxsX3RvX3N1cHBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJARicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRLDAuMTExMTExMWVtRicvJSdyc3BhY2VHRk4tRi42JVEpaHVsbF9hcnJGJ0YxRjQvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjstRjg2LVEiLEYnRjtGPS9GQUYzRkJGREZGRkhGSi9GTVEmMC4wZW1GJy9GUFEsMC4zMzMzMzMzZW1GJy1JKG1mZW5jZWRHRiQ2Ji1JJ210YWJsZUdGJDY1LUkkbXRyR0YkNictSSRtdGRHRiQ2KC1JI21uR0YkNiRRIjFGJ0Y7LyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0ZbcC8lK2dyb3VwYWxpZ25HRltwLyUocm93c3BhbkdGaG8vJStjb2x1bW5zcGFuR0Zoby1GY282KC1GZm82JFEiMkYnRjtGaW9GXHBGXnBGYHBGYnBGaW9GXHBGXnAvJSZhbGlnbkdRJWF4aXNGJy9Gam9RKWJhc2VsaW5lRicvRl1wUSdjZW50ZXJGJy9GX3BRJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR0YzLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGZnEvJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGYXIvJSZmcmFtZUdGYXIvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR0Y/LyUtZXF1YWxjb2x1bW5zR0Y/LyUtZGlzcGxheXN0eWxlR0Y/LyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRl5yRjsvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGVy1Gam42Ji1GIzYlLUZdbzY2LUZgbzYnLUZjbzYoLUZmbzYkUSIwRidGO0Zpb0ZccEZecEZgcEZicEZidEZpb0ZccEZecC1GYG82J0ZidEZib0Zpb0ZccEZecEZpcEZccS9GXXBGYXNGYHFGYnFGZHFGZ3FGaXFGXHJGX3JGYnJGZHJGZnJGaXJGW3NGXXNGX3NGYnNGVEY7RjtGZHNGZ3NGVEY7">NiUtSSJARzYiNiRJLWh1bGxfdG9fc3VwcEdGJUkpaHVsbF9hcnJHRiU9RiU2IzsiIiIiIiNFXFtsI0YsRixGLUYtPUYlNiRGK0YrRVxbbCU2JEYtRiwiIiE2JEYtRi1GLDYkRixGLUYzNiRGLEYsRjM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUYjNictSSNtaUdGJDYlUS1odWxsX3RvX3N1cHBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJARicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRLDAuMTExMTExMWVtRicvJSdyc3BhY2VHRk4tRi42JVEpaHVsbF9hcnJGJ0YxRjQvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjstRjg2LVEiLEYnRjtGPS9GQUYzRkJGREZGRkhGSi9GTVEmMC4wZW1GJy9GUFEsMC4zMzMzMzMzZW1GJy1JKG1mZW5jZWRHRiQ2Ji1JJ210YWJsZUdGJDY1LUkkbXRyR0YkNiktSSRtdGRHRiQ2KC1JI21uR0YkNiRRIjFGJ0Y7LyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0ZbcC8lK2dyb3VwYWxpZ25HRltwLyUocm93c3BhbkdGaG8vJStjb2x1bW5zcGFuR0Zoby1GY282KC1GZm82JFEiMkYnRjtGaW9GXHBGXnBGYHBGYnAtRmNvNigtRmZvNiRRIjNGJ0Y7RmlvRlxwRl5wRmBwRmJwLUZjbzYoLUZmbzYkUSI0RidGO0Zpb0ZccEZecEZgcEZicEZpb0ZccEZecC8lJmFsaWduR1ElYXhpc0YnL0Zqb1EpYmFzZWxpbmVGJy9GXXBRJ2NlbnRlckYnL0ZfcFEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHRjMvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0Zgci8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtRicvJSlyb3dsaW5lc0dRJW5vbmVGJy8lLGNvbHVtbmxpbmVzR0Zbcy8lJmZyYW1lR0Zbcy8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHRj8vJS1lcXVhbGNvbHVtbnNHRj8vJS1kaXNwbGF5c3R5bGVHRj8vJSVzaWRlR1EmcmlnaHRGJy8lMG1pbmxhYmVsc3BhY2luZ0dGaHJGOy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZXLUZqbjYmLUYjNiUtRl1vNjYtRmBvNiktRmNvNigtRmZvNiRRIjBGJ0Y7RmlvRlxwRl5wRmBwRmJwRmJvRmJvRmRwRmlvRlxwRl5wLUZgbzYpRmJvRlx1RmJvRlx1RmlvRlxwRl5wRmNxRmZxL0ZdcEZbdEZqcUZcckZeckZhckZjckZmckZpckZcc0Zec0Zgc0Zjc0Zlc0Znc0Zpc0ZcdEZURjtGO0ZedEZhdEZURjs=">NiUtSSJARzYiNiRJLWh1bGxfdG9fc3VwcEdGJUkpaHVsbF9hcnJHRiU9RiU2IzsiIiIiIiVFXFtsJUYsRiwiIiNGLyIiJEYwRi1GLT1GJTYkO0YsRi9GK0VcW2wpNiRGL0YsRiw2JEYvRjBGLDYkRi9GLyIiITYkRixGMEYsNiRGLEYvRiw2JEYsRi1GLzYkRi9GLUY4NiRGLEYsRjg=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=.9825000000,(1, 1)=.5000000000e-2])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = .9825000000, lam1x2+lam3x2+lam3x3+2*lam3x4 = .5000000000e-2, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=-.1750000000e-1,(1, 1)=-.9950000000])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = -.1750000000e-1, lam1x2+lam3x2+lam3x3+2*lam3x4 = -.9950000000, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=.9825000000,(1, 1)=-.9950000000])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = .9825000000, lam1x2+lam3x2+lam3x3+2*lam3x4 = -.9950000000, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=1.982500000,(1, 1)=-.9950000000])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = 1.982500000, lam1x2+lam3x2+lam3x3+2*lam3x4 = -.9950000000, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=-.1750000000e-1,(1, 1)=.5000000000e-2])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = -.1750000000e-1, lam1x2+lam3x2+lam3x3+2*lam3x4 = .5000000000e-2, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=1.982500000,(1, 1)=.5000000000e-2])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = 1.982500000, lam1x2+lam3x2+lam3x3+2*lam3x4 = .5000000000e-2, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCovSSdsYW0xeDFHRiQkIisrKytdKiohIzUvSSdsYW0xeDJHRiQkIisrKysrXSEjNy9JJ2xhbTJ4MUdGJCQiKysrK108ISM2L0knbGFtMngyR0YkJCIrKysrRCkqRiovSSdsYW0zeDFHRiQkIiIiIiIhL0knbGFtM3gyR0YkJEY9Rj0vSSdsYW0zeDNHRiRGQC9JJ2xhbTN4NEdGJEZA</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Passing start vertex=array(1 .. 2, 1 .. 1,[(2, 1)=2,(1, 1)=0]).
+greedy search for row indices</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkobWZlbmNlZEdGJDYmLUknbXRhYmxlR0YkNjUtSSRtdHJHRiQ2KC1JJG10ZEdGJDYoLUYsNiYtRiM2JS1GLzY2LUYyNictRjU2KC1JI21uR0YkNiRRIjBGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRkovJStncm91cGFsaWduR0ZKLyUocm93c3BhbkdRIjFGJy8lK2NvbHVtbnNwYW5HRlEtRjU2KC1GQjYkRlFGRUZIRktGTUZPRlJGSEZLRk0tRjI2J0Y/Rj9GSEZLRk0vJSZhbGlnbkdRJWF4aXNGJy9GSVEpYmFzZWxpbmVGJy9GTFEmcmlnaHRGJy9GTlEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHUSV0cnVlRicvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0Ziby8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtRicvJSlyb3dsaW5lc0dRJW5vbmVGJy8lLGNvbHVtbmxpbmVzR0ZdcC8lJmZyYW1lR0ZdcC8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHUSZmYWxzZUYnLyUtZXF1YWxjb2x1bW5zR0ZncC8lLWRpc3BsYXlzdHlsZUdGZ3AvJSVzaWRlR0Zqbi8lMG1pbmxhYmVsc3BhY2luZ0dGam8vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRkVGRS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZIRktGTUZPRlItRjU2KC1GLDYmLUYjNiUtRi82NkZYRj1GWkZnbkZpbkZbb0Zdb0Zgb0Zjb0Zlb0Zob0ZbcEZecEZgcEZicEZlcEZocEZqcEZccUZecUZgcUZFRkVGY3FGZnFGSEZLRk1GT0ZSLUY1NigtRiw2Ji1GIzYlLUYvNjYtRjI2KUY/RlRGVC1GNTYoLUZCNiRRIjJGJ0ZFRkhGS0ZNRk9GUkZIRktGTS1GMjYpRlRGP0ZURj9GSEZLRk1GWkZnbkZpbkZbb0Zdb0Zgb0Zjb0Zlb0Zob0ZbcEZecEZgcEZicEZlcEZocEZqcEZccUZecUZgcUZFRkVGY3FGZnFGSEZLRk1GT0ZSRkhGS0ZNRlpGZ24vRkxRJ2NlbnRlckYnRltvRl1vRmBvRmNvRmVvRmhvRltwRl5wRmBwRmJwRmVwRmhwRmpwRlxxRl5xRkVGY3FGZnEtSSNtb0dGJDYtUSIsRidGRS8lJmZlbmNlR0ZncC8lKnNlcGFyYXRvckdGX28vJSlzdHJldGNoeUdGZ3AvJSpzeW1tZXRyaWNHRmdwLyUobGFyZ2VvcEdGZ3AvJS5tb3ZhYmxlbGltaXRzR0ZncC8lJ2FjY2VudEdGZ3AvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJ0YrRmRzLUYsNiYtRiM2Ky1GIzYwLUYjNiYtRkI2JFEkMzYyRidGRS1GZXM2LVExJkludmlzaWJsZVRpbWVzO0YnRkVGaHMvRlt0RmdwRlx0Rl50RmB0RmJ0RmR0RmZ0L0ZqdEZodC1JI21pR0YkNiVRJ2xhbTF4MkYnLyUnaXRhbGljR0Zfby9GRlEnaXRhbGljRidGRS1GZXM2LVEiK0YnRkVGaHNGanVGXHRGXnRGYHRGYnRGZHQvRmd0USwwLjIyMjIyMjJlbUYnL0ZqdEZodi1GQjYkUSUxNTgxRidGRUZkdi1GIzYmLUZCNiRRJDg0NUYnRkVGZ3UtRl12NiVRJ2xhbTJ4MkYnRmB2RmJ2RkVGZHYtRiM2Ji1GQjYkUSQ2NTZGJ0ZFRmd1LUZddjYlUSdsYW0zeDJGJ0ZgdkZidkZFRmR2LUYjNiYtRkI2JFElMTU1M0YnRkVGZ3UtRl12NiVRJ2xhbTN4M0YnRmB2RmJ2RkVGZHYtRiM2Ji1GQjYkUSUxMzEyRidGRUZndS1GXXY2JVEnbGFtM3g0RidGYHZGYnZGRUZkdi1GIzYmLUZCNiRRJDg5N0YnRkVGZ3UtRl12NiVRJ2xhbTN4MUYnRmB2RmJ2RkVGRUZkcy1GLDYmLUYjNiktRiM2Jy1GIzYmLUZddjYlUSdsYW0xeDFGJ0ZgdkZidkZkdkZcdkZFLUZlczYtUSI9RidGRUZoc0ZqdUZcdEZedEZgdEZidEZkdC9GZ3RRLDAuMjc3Nzc3OGVtRicvRmp0RmR6RlZGYHFGRUZkcy1GIzYnLUYjNiYtRl12NiVRJ2xhbTJ4MUYnRmB2RmJ2RmR2RmJ3RkVGYHpGVkZgcUZFRmRzLUYjNictRiM2KkZieUZkdkZqd0ZkdkZieEZkdkZqeEZFRmB6RlZGYHFGRUZgcUZFRkUvRmRxUSJ8ZnJGJy9GZ3FRInxockYnRmRzLUZddjYlUSh2ZXJ0bGhzRidGYHZGYnZGZHMtRkI2JFEiOEYnRkVGYHFGRUZFRmNxRmZxRmRzLUYsNiYtRi82NS1GMjYnLUY1NigtRiM2JS1GZXM2LVEqJnVtaW51czA7RidGRUZoc0ZqdUZcdEZedEZgdEZidEZkdEZndkZpdi1GQjYkUS8wLjAwNTAwMDAwMDAwMEYnRkVGRUZIRktGTUZPRlItRjU2KC1GQjYkUS4wLjAxNzUwMDAwMDAwRidGRUZIRktGTUZPRlJGSEZLRk1GWkZnbkZic0Zbb0Zdb0Zgb0Zjb0Zlb0Zob0ZbcEZecEZgcEZicEZlcEZocEZqcEZccUZecUZFRmNxRmZxRmBxRkU=">NiY9NiI2IzsiIiIiIiRFXFtsJEYnPUYkNiQ7RiciIiNGLEVcW2wlNiRGLUYnIiIhNiRGLUYtRjA2JEYnRi1GJzYkRidGJ0YwRi09RiRGK0VcW2wlRi9GMEYxRidGMkYwRjNGMEYoPUYkNiRGLDtGJyIiJUVcW2wpRi9GJzYkRi1GKEYnRjFGMDYkRidGKEYnRjJGJzYkRidGOUYtNiRGLUY5RjBGM0YwRiM3JiwwSSdsYW0xeDJHRiQiJGkkIiUiZSJGJ0knbGFtMngyR0YkIiRYKUknbGFtM3gyR0YkIiRjJ0knbGFtM3gzR0YkIiVgOkknbGFtM3g0R0YkIiU3OEknbGFtM3gxR0YkIiQoKik8JS8sJkknbGFtMXgxR0YkRidGQUYnRicvLCZJJ2xhbTJ4MUdGJEYnRkRGJ0YnLywqRkxGJ0ZGRidGSEYnRkpGJ0YnSSh2ZXJ0bGhzR0YkIiIpSSZkZWx0YUdGJA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`  maximum coordinates`, array( 1 .. 2, [( 1 ) = (3), ( 2 ) = (2)  ] )
+Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=1.982500000,(1, 1)=.5000000000e-2])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = 1.982500000, lam1x2+lam3x2+lam3x3+2*lam3x4 = .5000000000e-2, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCovSSdsYW0xeDFHRiQkIisrKytdKiohIzUvSSdsYW0xeDJHRiQkIisrKysrXSEjNy9JJ2xhbTJ4MUdGJCQiKysrK108ISM2L0knbGFtMngyR0YkJCIrKysrRCkqRiovSSdsYW0zeDFHRiQkIiIiIiIhL0knbGFtM3gyR0YkJEY9Rj0vSSdsYW0zeDNHRiRGQC9JJ2xhbTN4NEdGJEZA</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVFAdG9yaWMvY29tcF9yb3dzXzI6flJvd35tb25vbWlhbEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtbkdGJDYkUSIxRidGOUY1LUYsNiVRJ2VxdWFsc0YnRi9GMkY1LUkobWZlbmNlZEdGJDYmLUYjNiUtSSdtdGFibGVHRiQ2Ni1JJG10ckdGJDYmLUkkbXRkR0YkNigtRlE2JFEiMEYnRjkvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRmRvLyUrZ3JvdXBhbGlnbkdGZG8vJShyb3dzcGFuR0ZTLyUrY29sdW1uc3BhbkdGU0Zib0Zlb0Znby1Gam42Ji1GXW82KC1GUTYkUSIyRidGOUZib0Zlb0Znb0Zpb0ZbcEZib0Zlb0Znby8lJmFsaWduR1ElYXhpc0YnL0Zjb1EpYmFzZWxpbmVGJy9GZm9RJnJpZ2h0RicvRmhvUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdGMS8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRmFxLyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRlxyLyUmZnJhbWVHRlxyLyUtZnJhbWVzcGFjaW5nR1EsMC40ZW1+MC41ZXhGJy8lKmVxdWFscm93c0dGPS8lLWVxdWFsY29sdW1uc0dGPS8lLWRpc3BsYXlzdHlsZUdGPS8lJXNpZGVHRmpwLyUwbWlubGFiZWxzcGFjaW5nR0ZpcS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRjUtRiw2JVEqZXhwcmVzc2VkRidGL0YyRjUtRlg2Ji1GZ242NS1Gam42KEZcb0Zcby1GXW82KEZQRmJvRmVvRmdvRmlvRltwRmJvRmVvRmdvRmRwRmdwL0Zmb1EnY2VudGVyRidGW3FGXXFGX3FGYnFGZHFGZ3FGanFGXXJGX3JGYXJGZHJGZnJGaHJGanJGXHNGOUZhc0Zkc0Zec0Y5">NihJQHRvcmljL2NvbXBfcm93c18yOn5Sb3d+bW9ub21pYWxHNiIiIiJJJ2VxdWFsc0dGJEkjdnRHRiRJKmV4cHJlc3NlZEdGJEkpb3B0dmVydHNHRiQ=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`values of imax,vt,overts equal`, 3, array( 1 .. 2, 1 .. 1, [( 2, 1 ) = (2), ( 1, 1 ) = (0)  ] ), array( 1 .. 3, [( 1 ) = (0), ( 2 ) = (0), ( 3 ) = (1)  ] )
+Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=.9825000000,(1, 1)=2.005000000])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = .9825000000, lam1x2+lam3x2+lam3x3+2*lam3x4 = 2.005000000, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCovSSdsYW0xeDFHRiQkIiIhRikvSSdsYW0xeDJHRiQkIisrKysrNSEiKi9JJ2xhbTJ4MUdGJCQiKysrK108ISM2L0knbGFtMngyR0YkJCIrKysrRCkqISM1L0knbGFtM3gxR0YkRigvSSdsYW0zeDJHRiQkIisrKytdKipGOC9JJ2xhbTN4M0dGJEYoL0knbGFtM3g0R0YkJCIrKysrK10hIzc=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVFAdG9yaWMvY29tcF9yb3dzXzI6flJvd35tb25vbWlhbEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtbkdGJDYkUSIyRidGOUY1LUYsNiVRJ2VxdWFsc0YnRi9GMkY1LUkobWZlbmNlZEdGJDYmLUYjNiUtSSdtdGFibGVHRiQ2Ni1JJG10ckdGJDYmLUkkbXRkR0YkNihGUC8lKXJvd2FsaWduR1EhRicvJSxjb2x1bW5hbGlnbkdGYW8vJStncm91cGFsaWduR0Zhby8lKHJvd3NwYW5HUSIxRicvJStjb2x1bW5zcGFuR0Zob0Zfb0Zib0Zkby1Gam42Ji1GXW82KC1GUTYkRmhvRjlGX29GYm9GZG9GZm9GaW9GX29GYm9GZG8vJSZhbGlnbkdRJWF4aXNGJy9GYG9RKWJhc2VsaW5lRicvRmNvUSZyaWdodEYnL0Zlb1EnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHRjEvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0ZecS8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtRicvJSlyb3dsaW5lc0dRJW5vbmVGJy8lLGNvbHVtbmxpbmVzR0ZpcS8lJmZyYW1lR0ZpcS8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHRj0vJS1lcXVhbGNvbHVtbnNHRj0vJS1kaXNwbGF5c3R5bGVHRj0vJSVzaWRlR0ZncC8lMG1pbmxhYmVsc3BhY2luZ0dGZnEvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Y1LUYsNiVRKmV4cHJlc3NlZEYnRi9GMkY1LUZYNiYtRmduNjUtRmpuNihGXG8tRl1vNigtRlE2JFEiMEYnRjlGX29GYm9GZG9GZm9GaW9GXXRGX29GYm9GZG9GYXBGZHAvRmNvUSdjZW50ZXJGJ0ZocEZqcEZccUZfcUZhcUZkcUZncUZqcUZcckZeckZhckZjckZlckZnckZpckY5Rl5zRmFzRltzRjk=">NihJQHRvcmljL2NvbXBfcm93c18yOn5Sb3d+bW9ub21pYWxHNiIiIiNJJ2VxdWFsc0dGJEkjdnRHRiRJKmV4cHJlc3NlZEdGJEkpb3B0dmVydHNHRiQ=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`values of imax,vt,overts equal`, 1, array( 1 .. 2, 1 .. 1, [( 2, 1 ) = (1), ( 1, 1 ) = (2)  ] ), array( 1 .. 3, [( 1 ) = (2), ( 2 ) = (0), ( 3 ) = (0)  ] )
+Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=1.982500000,(1, 1)=1.005000000])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = 1.982500000, lam1x2+lam3x2+lam3x3+2*lam3x4 = 1.005000000, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCovSSdsYW0xeDFHRiQkIiIhRikvSSdsYW0xeDJHRiQkIisrKysrNSEiKi9JJ2xhbTJ4MUdGJCQiKysrK103ISM2L0knbGFtMngyR0YkJCIrKysrdikqISM1L0knbGFtM3gxR0YkJCIrKysrXSoqRjgvSSdsYW0zeDJHRiQkIisrKysrXSEjNy9JJ2xhbTN4M0dGJEYoL0knbGFtM3g0R0YkRig=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVFAdG9yaWMvY29tcF9yb3dzXzI6flJvd35tb25vbWlhbEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtbkdGJDYkUSIzRidGOUY1LUYsNiVRJ2VxdWFsc0YnRi9GMkY1LUkobWZlbmNlZEdGJDYmLUYjNiUtSSdtdGFibGVHRiQ2Ni1JJG10ckdGJDYmLUkkbXRkR0YkNigtRlE2JFEiMUYnRjkvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRmRvLyUrZ3JvdXBhbGlnbkdGZG8vJShyb3dzcGFuR0Zhby8lK2NvbHVtbnNwYW5HRmFvRmJvRmVvRmdvLUZqbjYmLUZdbzYoLUZRNiRRIjJGJ0Y5RmJvRmVvRmdvRmlvRltwRmJvRmVvRmdvLyUmYWxpZ25HUSVheGlzRicvRmNvUSliYXNlbGluZUYnL0Zmb1EmcmlnaHRGJy9GaG9RJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR0YxLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGYXEvJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGXHIvJSZmcmFtZUdGXHIvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR0Y9LyUtZXF1YWxjb2x1bW5zR0Y9LyUtZGlzcGxheXN0eWxlR0Y9LyUlc2lkZUdGanAvJTBtaW5sYWJlbHNwYWNpbmdHRmlxLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGNS1GLDYlUSpleHByZXNzZWRGJ0YvRjJGNS1GWDYmLUZnbjY1LUZqbjYoRl9wLUZdbzYoLUZRNiRRIjBGJ0Y5RmJvRmVvRmdvRmlvRltwRmB0RmJvRmVvRmdvRmRwRmdwL0Zmb1EnY2VudGVyRidGW3FGXXFGX3FGYnFGZHFGZ3FGanFGXXJGX3JGYXJGZHJGZnJGaHJGanJGXHNGOUZhc0Zkc0Zec0Y5">NihJQHRvcmljL2NvbXBfcm93c18yOn5Sb3d+bW9ub21pYWxHNiIiIiRJJ2VxdWFsc0dGJEkjdnRHRiRJKmV4cHJlc3NlZEdGJEkpb3B0dmVydHNHRiQ=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`values of imax,vt,overts equal`, 1, array( 1 .. 2, 1 .. 1, [( 2, 1 ) = (2), ( 1, 1 ) = (1)  ] ), array( 1 .. 3, [( 1 ) = (2), ( 2 ) = (0), ( 3 ) = (0)  ] )
+Calling minimize() with: lifD=3, Opt_verts=array(1 .. 2, 1 .. 1,[(2, 1)=.9825000000,(1, 1)=1.005000000])
+   obj.fnc=362*lam1x2+1581+845*lam2x2+656*lam3x2+1553*lam3x3+1312*lam3x4+897*lam3x1, eqns={lam1x1+lam1x2 = 1, lam2x1+lam2x2 = 1, lam2x2+lam3x1+lam3x3 = .9825000000, lam1x2+lam3x2+lam3x3+2*lam3x4 = 1.005000000, lam3x1+lam3x2+lam3x3+lam3x4 = 1}</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiRJKW9idGFpbmVkRzYiPCovSSdsYW0xeDFHRiQkIisrKytdNyEjNi9JJ2xhbTF4MkdGJCQiKysrK3YpKiEjNS9JJ2xhbTJ4MUdGJCQiKysrKys1ISIqL0knbGFtMngyR0YkJCIiIUY4L0knbGFtM3gxR0YkJCIrKysrRCkqRi8vSSdsYW0zeDJHRiQkIisrKytdPEYqL0knbGFtM3gzR0YkRjcvSSdsYW0zeDRHRiRGNw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVFAdG9yaWMvY29tcF9yb3dzXzI6flJvd35tb25vbWlhbEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtbkdGJDYkUSI0RidGOUY1LUYsNiVRJ2VxdWFsc0YnRi9GMkY1LUkobWZlbmNlZEdGJDYmLUYjNiUtSSdtdGFibGVHRiQ2Ni1JJG10ckdGJDYmLUkkbXRkR0YkNigtRlE2JFEiMUYnRjkvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRmRvLyUrZ3JvdXBhbGlnbkdGZG8vJShyb3dzcGFuR0Zhby8lK2NvbHVtbnNwYW5HRmFvRmJvRmVvRmdvRmluLyUmYWxpZ25HUSVheGlzRicvRmNvUSliYXNlbGluZUYnL0Zmb1EmcmlnaHRGJy9GaG9RJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR0YxLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGanAvJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGZXEvJSZmcmFtZUdGZXEvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR0Y9LyUtZXF1YWxjb2x1bW5zR0Y9LyUtZGlzcGxheXN0eWxlR0Y9LyUlc2lkZUdGY3AvJTBtaW5sYWJlbHNwYWNpbmdHRmJxLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGNS1GLDYlUSpleHByZXNzZWRGJ0YvRjJGNS1GWDYmLUZnbjY1LUZqbjYoLUZdbzYoLUZRNiRRIjBGJ0Y5RmJvRmVvRmdvRmlvRltwRlxvRmlzRmJvRmVvRmdvRl1wRmBwL0Zmb1EnY2VudGVyRidGZHBGZnBGaHBGW3FGXXFGYHFGY3FGZnFGaHFGanFGXXJGX3JGYXJGY3JGZXJGOUZqckZdc0ZnckY5">NihJQHRvcmljL2NvbXBfcm93c18yOn5Sb3d+bW9ub21pYWxHNiIiIiVJJ2VxdWFsc0dGJEkjdnRHRiRJKmV4cHJlc3NlZEdGJEkpb3B0dmVydHNHRiQ=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">`values of imax,vt,overts equal`, 2, array( 1 .. 2, 1 .. 1, [( 2, 1 ) = (1), ( 1, 1 ) = (1)  ] ), array( 1 .. 3, [( 1 ) = (0), ( 2 ) = (1), ( 3 ) = (0)  ] )
+toric/mixed(): constructing 4-dim matrix
+Subdivision resultant matrix of size 4 x 4.
+denominator matrix of dim 0.
+timings[secs] and percents:
+optimize=.63e-1s (100%), find rows=0.s ( 0%),construct=0.s ( 0%), total=.63e-1s
+mixed returning [numM,denM],[pts,RC],supps,diagMons,denom_rows</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYpLUYjNiYtRiw2JS1JJ210YWJsZUdGJDY4LUkkbXRyR0YkNiktSSRtdGRHRiQ2KC1GLDYmLUkjbWlHRiQ2JVEjYTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RicvRkVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZPLyUpc3RyZXRjaHlHRk8vJSpzeW1tZXRyaWNHRk8vJShsYXJnZW9wR0ZPLyUubW92YWJsZWxpbWl0c0dGTy8lJ2FjY2VudEdGTy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmhuLUklbXN1YkdGJDYlLUY+NiVRInVGJ0ZBRkQtRiw2JS1GPjYlUSJpRidGQUZELyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0ZLLyUvc3Vic2NyaXB0c2hpZnRHUSIwRidGSy8lKXJvd2FsaWduR1EhRicvJSxjb2x1bW5hbGlnbkdGXnAvJStncm91cGFsaWduR0ZecC8lKHJvd3NwYW5HUSIxRicvJStjb2x1bW5zcGFuR0ZlcC1GOTYoLUYsNiktRkg2LVEqJnVtaW51czA7RidGS0ZNRlBGUkZURlZGWEZaL0ZnblEsMC4yMjIyMjIyZW1GJy9Gam5GYHEtRiw2KEY9RkctRj42JVEiYkYnRkFGREZHRltvRkstRkg2LVEiK0YnRktGTUZQRlJGVEZWRlhGWkZfcUZhcUZkcS1GSDYtUSgmbWludXM7RidGS0ZNRlBGUkZURlZGWEZaRl9xRmFxLUkjbW5HRiQ2JEZlcEZLRktGXHBGX3BGYXBGY3BGZnAtRjk2KEZdckZccEZfcEZhcEZjcEZmcC1GOTYoLUYsNiZGXHFGZHFGZm9GS0ZccEZfcEZhcEZjcEZmcEZccEZfcEZhcC1GNjYpLUY5NigtRl5yNiRGW3BGS0ZccEZfcEZhcEZjcEZmcC1GOTYoLUYsNitGXHEtRiw2JkZkcUZHLUkobXN1YnN1cEdGJDYnRl5vLUYsNiUtRiw2JkZjb0ZncUZdckZLRmZvRkstRl5yNiRRIjJGJ0ZLLyUxc3VwZXJzY3JpcHRzaGlmdEdGW3BGaW9GS0ZncS1GLDYmRmRxRkctRlxvNiVGXm9GZXNGaW9GS0ZncS1GLDYmRmB0RkctRlxvNiVGXm8tRiw2JS1GLDYmRmNvRmdxRmlzRktGZm9GS0Zpb0ZLRmpxRmB0RktGXHBGX3BGYXBGY3BGZnAtRjk2KC1GLDYnRlxxLUYsNigtRj42JVEjYTFGJ0ZBRkRGR0ZkcUZHRmB0RktGZ3EtRiw2JkZgdUZHRmR0RktGS0ZccEZfcEZhcEZjcEZmcEZockZccEZfcEZhcC1GNjYpLUY5NigtRiw2K0ZccS1GLDYmRmRxRkctRmNzNidGXm9GYW9GaXNGXHRGaW9GS0ZncS1GLDYmRmRxRkdGW29GS0ZncS1GLDYmRltvRkdGYHRGS0ZqcUZbb0ZLRlxwRl9wRmFwRmNwRmZwRmhyLUY5NigtRiw2J0ZccS1GLDYoRmB1RkdGZHFGR0Zbb0ZLRmdxLUYsNiZGYHVGR0ZgdEZLRktGXHBGX3BGYXBGY3BGZnBGaHJGXHBGX3BGYXAtRjY2KUZockZndUZockZjdkZccEZfcEZhcC8lJmFsaWduR1ElYXhpc0YnL0ZdcFEpYmFzZWxpbmVGJy9GYHBRJ2NlbnRlckYnL0ZicFEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHRkMvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0Zqdy8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtRicvJSlyb3dsaW5lc0dRJW5vbmVGJy8lLGNvbHVtbmxpbmVzR0ZleC8lJmZyYW1lR0ZleC8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHRk8vJS1lcXVhbGNvbHVtbnNHRk8vJS1kaXNwbGF5c3R5bGVHRk8vJSVzaWRlR1EmcmlnaHRGJy8lMG1pbmxhYmVsc3BhY2luZ0dGYnhGZm9GS0ZLLyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnLUZINi1RIixGJ0ZLRk0vRlFGQ0ZSRlRGVkZYRlpGZm4vRmpuUSwwLjMzMzMzMzNlbUYnLUYjNiYtRiw2JS1GMzY1LUY2NiYtRjk2KC1GPjYlRl5wRkFGREZccEZfcEZhcEZjcEZmcEZccEZfcEZhcEZdd0Zgdy9GYHBGZXlGZHdGZndGaHdGW3hGXXhGYHhGY3hGZnhGaHhGanhGXXlGX3lGYXlGY3lGZnlGZm9GS0ZLRmh5Rlt6Rl56LUYjNiYtRiw2Ky1GIzYmLUYsNiUtRjM2Ni1GNjYmRmhyRlxwRl9wRmFwLUY2NiYtRjk2KEZpc0ZccEZfcEZhcEZjcEZmcEZccEZfcEZhcEZdd0Zgd0ZgW2xGZHdGZndGaHdGW3hGXXhGYHhGY3hGZnhGaHhGanhGXXlGX3lGYXlGY3lGZnlGZm9GS0ZLRmh5Rlt6Rl56LUYjNiYtRiw2JS1GMzY2LUY2NiZGYHJGXHBGX3BGYXBGZ1xsRl13RmB3RmBbbEZkd0Zmd0Zod0ZbeEZdeEZgeEZjeEZmeEZoeEZqeEZdeUZfeUZheUZjeUZmeUZmb0ZLRktGaHlGW3pGXnotRiM2Ji1GLDYlLUYzNjZGZ1xsRl1cbEZdd0Zgd0ZgW2xGZHdGZndGaHdGW3hGXXhGYHhGY3hGZnhGaHhGanhGXXlGX3lGYXlGY3lGZnlGZm9GS0ZLRmh5Rlt6Rl56LUYjNiYtRiw2JS1GMzY2Rl1cbEZnXGxGXXdGYHdGYFtsRmR3RmZ3Rmh3Rlt4Rl14RmB4RmN4RmZ4Rmh4Rmp4Rl15Rl95RmF5RmN5RmZ5RmZvRktGS0ZoeUZbekZmb0ZLRktGaHlGW3pGZm9GS0ZLRmh5Rlt6">NyU9NiI2JDsiIiIiIiVGJkVcW2wxNiQiIiNGJyIiITYkRisiIiQsJiooSSNhMUdGJEYnSSJiR0YkRicmSSJ1R0YkNiMsJkkiaUdGJEYnRidGJ0YnISIiKiZGMUYnJkY0NiMsJkY3RidGK0YnRidGJzYkRi5GKEYsNiRGK0YrLCoqJkYyRidGM0YrRjgqJkYyRidGM0YnRicqJkYzRidGOkYnRidGM0Y4NiRGJ0YuRic2JEYuRicsKiomRjJGJyZGNDYjRjdGK0Y4KiZGMkYnRkdGJ0YnKiZGR0YnRjNGJ0YnRkdGODYkRi5GLiwmKihGMUYnRjJGJ0ZHRidGOComRjFGJ0YzRidGJzYkRi5GK0YsNiRGKEYrRkU2JEYoRihGTDYkRidGKywoKihJI2EyR0YkRidGMkYnRkdGJ0Y4RjJGJ0Y4Ric2JEYnRigsJEYyRjg2JEYrRihGLDYkRihGJ0YsNiRGJ0YnKiZGVUYnRkdGJzYkRihGLkYsPUYkNiQ7RidGLEZpbkVcW2whNyY9RiQ2JDtGJ0YrO0YnRidFXFtsI0YqRitGWkYsPUYkRl1vRVxbbCNGKkYnRlpGJz1GJEZdb0VcW2wjRipGK0ZaRic9RiRGXW9FXFtsI0YqRidGWkYr</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEhRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnL0YzUSdub3JtYWxGJw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2JVEhRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0Yn</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
